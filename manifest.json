@@ -1,0 +1,10 @@
+{
+  "name":"Selección de Maldonado de Creadores",
+  "short_name":"Álbum Maldonado",
+  "start_url":"./index.html",
+  "display":"standalone",
+  "orientation":"portrait",
+  "background_color":"#071321",
+  "theme_color":"#071321",
+  "description":"Álbum virtual de stickers de la Selección de Maldonado de Creadores"
+}
