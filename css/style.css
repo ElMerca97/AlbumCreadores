@@ -757,6 +757,146 @@ main{
   margin-top:4px
 }
 
+.social-section-head{
+  margin-top:16px;
+  margin-bottom:10px
+}
+
+.social-networks{
+  display:grid;
+  grid-template-columns:repeat(2, minmax(0, 1fr));
+  gap:10px;
+  margin-top:10px
+}
+
+.social-network-item{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  min-width:0;
+  padding:10px 12px;
+  border-radius:12px;
+  border:1px solid rgba(41, 64, 87, 0.9);
+  background:linear-gradient(180deg, rgba(11, 27, 42, 0.96), rgba(8, 18, 29, 0.96));
+  color:#edf6ff;
+  text-decoration:none;
+  box-shadow:0 8px 18px rgba(0, 0, 0, 0.18);
+  transition:transform .2s ease, border-color .2s ease, box-shadow .2s ease, filter .2s ease;
+}
+
+.social-network-item:hover,
+.social-network-item:focus-visible{
+  transform:translateY(-1px);
+  border-color:rgba(215, 173, 69, 0.85);
+  box-shadow:0 10px 22px rgba(215, 173, 69, 0.15), 0 0 0 1px rgba(215, 173, 69, 0.15);
+  filter:brightness(1.02);
+}
+
+.social-network-item:focus-visible{
+  outline:2px solid rgba(215, 173, 69, 0.75);
+  outline-offset:2px;
+}
+
+.social-network-logo-wrap{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width:38px;
+  height:38px;
+  flex:0 0 38px;
+  border-radius:10px;
+  background:rgba(255, 255, 255, 0.08);
+  border:1px solid rgba(255, 255, 255, 0.08);
+  overflow:hidden;
+}
+
+.social-network-logo,
+.social-network-icon{
+  width:22px;
+  height:22px;
+  display:block;
+  object-fit:contain;
+  flex:0 0 auto;
+}
+
+.social-network-icon{
+  display:grid;
+  place-items:center;
+  border-radius:10px;
+  font-size:18px;
+  font-weight:900;
+  color:#fff;
+  background:rgba(255, 255, 255, 0.08);
+  border:1px solid rgba(255, 255, 255, 0.08);
+}
+
+.social-network-copy{
+  display:flex;
+  flex-direction:column;
+  gap:2px;
+  min-width:0;
+  flex:1 1 auto;
+}
+
+.social-network-label{
+  font-size:10px;
+  letter-spacing:0.12em;
+  text-transform:uppercase;
+  color:#a7b7c7;
+}
+
+.social-network-handle{
+  font-size:13px;
+  font-weight:700;
+  color:#fff;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+
+.social-network-pending-text{
+  color:#f1d58d;
+}
+
+.social-network-status{
+  margin-left:auto;
+  padding:4px 6px;
+  border-radius:999px;
+  font-size:9px;
+  line-height:1;
+  letter-spacing:0.08em;
+  text-transform:uppercase;
+  color:#f2d27a;
+  background:rgba(215, 173, 69, 0.12);
+  border:1px solid rgba(215, 173, 69, 0.3);
+}
+
+.social-network-arrow{
+  margin-left:6px;
+  font-size:18px;
+  color:#f1d58d;
+  flex:0 0 auto;
+}
+
+.social-network-pending{
+  cursor:default;
+  opacity:0.92;
+}
+
+.social-instagram{background:linear-gradient(135deg,#f58529,#dd2a7b 40%,#8134af 72%,#515bd4)}
+.social-tiktok{background:linear-gradient(135deg,#010101,#0f172a 50%,#ff0050)}
+.social-youtube{background:linear-gradient(135deg,#ff0000,#cc0000)}
+.social-twitter{background:linear-gradient(135deg,#1d9bf0,#0f172a)}
+.social-facebook{background:linear-gradient(135deg,#1877f2,#0f3d8d)}
+.social-twitch{background:linear-gradient(135deg,#9146ff,#4d2678)}
+.social-discord{background:linear-gradient(135deg,#5865f2,#404eed)}
+.social-website{background:linear-gradient(135deg,#21b6a8,#146c64)}
+
+@media (max-width: 620px){
+  .social-networks{
+    grid-template-columns:1fr;
+  }
+}
 
 /* =========================================================
    MODAL
@@ -2522,10 +2662,26 @@ body.light-theme .info,
 body.light-theme .stat,
 body.light-theme .version-switcher,
 body.light-theme .draggable-card,
-body.light-theme .choose-item{
+body.light-theme .choose-item,
+body.light-theme .social-network-item{
   border-color:#126e7533;
   background-color:#f4faf9b8;
   box-shadow:0 10px 24px #486d7020;
+}
+
+body.light-theme .social-network-item{
+  color:var(--cream);
+}
+
+body.light-theme .social-network-label,
+body.light-theme .social-network-status{
+  color:var(--muted);
+}
+
+body.light-theme .social-network-handle,
+body.light-theme .social-network-icon,
+body.light-theme .social-network-arrow{
+  color:var(--cream);
 }
 
 body.light-theme .quick:nth-child(2){background:#fff7dfb8}
