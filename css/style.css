@@ -3887,3 +3887,1118 @@ body.light-theme .album-book{
     gap:6px !important;
   }
 }
+
+/* =========================================================
+   APERTURA DE SOBRES — DISTRIBUCIÓN DEFINITIVA
+   3 y 5 cromos usan EXACTAMENTE el mismo tamaño.
+========================================================= */
+
+/* El contenedor de la apertura no debe conservar el hueco del sobre. */
+.pack-opening.pack-opening-premium{
+  min-height:0 !important;
+}
+
+/* El sobre desaparece y su espacio se colapsa. */
+.pack-opening-stage.pack-disappear{
+  height:0 !important;
+  min-height:0 !important;
+  margin:0 !important;
+  padding:0 !important;
+  overflow:hidden !important;
+  opacity:0 !important;
+}
+
+.pack-opening-stage.pack-disappear .pack-envelope-real{
+  opacity:0 !important;
+  transform:translateY(-20px) scale(1.15) !important;
+  filter:blur(8px) !important;
+  animation:none !important;
+}
+
+.pack-opening-stage.pack-disappear .pack-opening-glow,
+.pack-opening-stage.pack-disappear .pack-opening-particles{
+  opacity:0 !important;
+  animation:none !important;
+}
+
+/* =========================================================
+   ESCRITORIO
+========================================================= */
+
+@media (min-width:901px){
+
+  /* 3 cromos: modal más compacto, grupo perfectamente centrado. */
+  .modal-card.pack-reveal-modal.pack-count-3{
+    width:min(820px,94vw) !important;
+    max-width:820px !important;
+  }
+
+  /* 5 cromos: suficiente ancho para una sola fila. */
+  .modal-card.pack-reveal-modal.pack-count-5{
+    width:min(1120px,96vw) !important;
+    max-width:1120px !important;
+  }
+
+  /*
+     MISMO TAMAÑO PARA 3 Y 5.
+     Solo cambia la cantidad de columnas.
+  */
+  .modal-card.pack-reveal-modal .pack-reveal-grid{
+    --reveal-card-width:180px;
+
+    width:100% !important;
+    max-width:none !important;
+    margin:0 auto !important;
+    padding:0 !important;
+    gap:12px !important;
+
+    display:grid !important;
+    justify-content:center !important;
+    align-items:start !important;
+    grid-auto-rows:max-content !important;
+  }
+
+  .modal-card.pack-reveal-modal.pack-count-3 .pack-reveal-grid{
+    grid-template-columns:repeat(3,180px) !important;
+  }
+
+  .modal-card.pack-reveal-modal.pack-count-5 .pack-reveal-grid{
+    grid-template-columns:repeat(5,180px) !important;
+  }
+
+  .modal-card.pack-reveal-modal .pack-reveal-card{
+    width:180px !important;
+    min-width:180px !important;
+    max-width:180px !important;
+    margin:0 !important;
+  }
+}
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (min-width:601px) and (max-width:900px){
+
+  .modal-card.pack-reveal-modal.pack-count-3,
+  .modal-card.pack-reveal-modal.pack-count-5{
+    width:min(94vw,900px) !important;
+    max-width:900px !important;
+  }
+
+  .modal-card.pack-reveal-modal .pack-reveal-grid{
+    --reveal-card-width:min(180px,calc((94vw - 48px) / 3));
+
+    width:100% !important;
+    max-width:none !important;
+    margin:0 auto !important;
+    padding:0 !important;
+    gap:10px !important;
+    display:grid !important;
+    grid-template-columns:repeat(3,var(--reveal-card-width)) !important;
+    justify-content:center !important;
+    align-items:start !important;
+  }
+
+  .modal-card.pack-reveal-modal .pack-reveal-card{
+    width:var(--reveal-card-width) !important;
+    min-width:var(--reveal-card-width) !important;
+    max-width:var(--reveal-card-width) !important;
+    margin:0 !important;
+  }
+}
+
+/* =========================================================
+   CELULAR
+========================================================= */
+
+@media (max-width:600px){
+
+  .modal-card.pack-reveal-modal.pack-count-3,
+  .modal-card.pack-reveal-modal.pack-count-5{
+    width:calc(100% - 16px) !important;
+    max-width:none !important;
+    margin:8px auto !important;
+  }
+
+  .modal-card.pack-reveal-modal .pack-reveal-grid{
+    width:100% !important;
+    max-width:none !important;
+    padding:0 !important;
+    gap:8px !important;
+    display:grid !important;
+    grid-template-columns:repeat(2,minmax(0,1fr)) !important;
+    justify-content:center !important;
+  }
+
+  .modal-card.pack-reveal-modal .pack-reveal-card{
+    width:100% !important;
+    min-width:0 !important;
+    max-width:none !important;
+    margin:0 !important;
+  }
+}
+
+
+/* =========================================================
+   FIXTURE — CLAUSURA F8
+========================================================= */
+
+.fixture-page{
+  max-width:1100px;
+  margin:0 auto;
+}
+
+.fixture-heading{
+  align-items:flex-end;
+  gap:20px;
+}
+
+.fixture-kicker{
+  display:block;
+  color:#f7dc72;
+  font-size:10px;
+  font-weight:900;
+  letter-spacing:2px;
+  margin-bottom:4px;
+}
+
+.fixture-heading h2{
+  margin:0;
+}
+
+.fixture-date{
+  color:var(--muted);
+  font-size:11px;
+  font-weight:800;
+  letter-spacing:1px;
+  text-align:right;
+}
+
+.fixture-hero{
+  display:flex;
+  align-items:center;
+  gap:14px;
+  padding:16px 18px;
+  margin:14px 0 18px;
+  border:1px solid #e5bd4c55;
+  border-radius:12px;
+  background:linear-gradient(135deg,#0d2533,#07131d);
+  box-shadow:0 8px 24px rgba(0,0,0,.22);
+}
+
+.fixture-hero-mark{
+  width:44px;
+  height:44px;
+  flex:0 0 44px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border:1px solid #e5bd4c88;
+  border-radius:50%;
+  font-size:22px;
+}
+
+.fixture-hero b{
+  display:block;
+  color:#f3d56c;
+  font-size:12px;
+  letter-spacing:1px;
+}
+
+.fixture-hero small{
+  display:block;
+  margin-top:4px;
+  color:var(--muted);
+  font-size:11px;
+}
+
+.fixture-list{
+  display:grid;
+  gap:12px;
+}
+
+.fixture-match{
+  padding:14px 16px 16px;
+  border:1px solid #315064;
+  border-radius:14px;
+  background:linear-gradient(145deg,#0b202d,#06131d);
+  box-shadow:0 8px 20px rgba(0,0,0,.18);
+  transition:transform .2s ease,border-color .2s ease;
+}
+
+.fixture-match:hover{
+  transform:translateY(-2px);
+  border-color:#e5bd4c88;
+}
+
+.fixture-match-top{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  margin-bottom:12px;
+}
+
+.fixture-time{
+  color:#f5d46d;
+  font-size:11px;
+  font-weight:900;
+  letter-spacing:1px;
+}
+
+.fixture-status{
+  padding:4px 8px;
+  border:1px solid #4f9c6a66;
+  border-radius:999px;
+  color:#8ed2a1;
+  background:#163b2633;
+  font-size:8px;
+  font-weight:900;
+  letter-spacing:1px;
+}
+
+.fixture-teams{
+  display:grid;
+  grid-template-columns:minmax(0,1fr) 70px minmax(0,1fr);
+  align-items:center;
+  gap:12px;
+}
+
+.fixture-team{
+  min-width:0;
+  display:flex;
+  align-items:center;
+  gap:12px;
+}
+
+.fixture-team:last-child{
+  justify-content:flex-end;
+  text-align:right;
+}
+
+.fixture-team strong{
+  color:#f2ead7;
+  font-size:12px;
+  letter-spacing:.5px;
+}
+
+.fixture-team-logo{
+  width:62px;
+  height:62px;
+  flex:0 0 62px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border-radius:12px;
+  border:1px solid #d9b84d66;
+  background:#050d13;
+  overflow:hidden;
+}
+
+.fixture-team-logo img{
+  width:100%;
+  height:100%;
+  object-fit:contain;
+  padding:5px;
+}
+
+.fixture-logo-missing::after{
+  content:'ESCUDO';
+  color:#637988;
+  font-size:7px;
+  font-weight:900;
+  letter-spacing:1px;
+}
+
+.fixture-vs{
+  text-align:center;
+  color:#d9bd63;
+  font-size:11px;
+  font-weight:900;
+  letter-spacing:1px;
+}
+
+.fixture-free{
+  margin-top:18px;
+  padding:16px;
+  border:1px solid #315064;
+  border-radius:12px;
+  background:#071721;
+}
+
+.fixture-free-title{
+  color:#f3d56c;
+  font-size:10px;
+  font-weight:900;
+  letter-spacing:1.5px;
+  margin-bottom:10px;
+}
+
+.fixture-free-items{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+}
+
+.fixture-free-items span{
+  padding:8px 11px;
+  border:1px solid #496071;
+  border-radius:8px;
+  color:#c6d3da;
+  font-size:10px;
+}
+
+@media(max-width:650px){
+  .fixture-heading{
+    align-items:flex-start;
+    flex-direction:column;
+  }
+
+  .fixture-date{
+    text-align:left;
+  }
+
+  .fixture-teams{
+    grid-template-columns:1fr 42px 1fr;
+    gap:5px;
+  }
+
+  .fixture-team{
+    flex-direction:column;
+    gap:6px;
+    text-align:center;
+  }
+
+  .fixture-team:last-child{
+    justify-content:center;
+    text-align:center;
+  }
+
+  .fixture-team strong{
+    font-size:9px;
+    line-height:1.2;
+  }
+
+  .fixture-team-logo{
+    width:58px;
+    height:58px;
+    flex-basis:58px;
+  }
+}
+
+/* =========================================================
+   TABLA DE POSICIONES
+========================================================= */
+
+.standings-section {
+  margin-top: 24px;
+}
+
+.standings-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.standings-kicker {
+  display: block;
+  color: #e4c84a;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  margin-bottom: 3px;
+}
+
+.standings-heading h2 {
+  margin: 0;
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+
+.standings-round {
+  border: 1px solid rgba(228, 200, 74, .45);
+  border-radius: 6px;
+  padding: 7px 12px;
+  color: #e4c84a;
+  font-size: 11px;
+  font-weight: 800;
+}
+
+
+/* CONTENEDOR */
+
+.standings-table {
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid rgba(228, 200, 74, .28);
+  border-radius: 12px;
+  background: rgba(5, 19, 29, .94);
+}
+
+
+/* CABECERA */
+
+.standings-header,
+.standings-row {
+  display: grid;
+  grid-template-columns:
+    42px
+    minmax(190px, 1fr)
+    55px
+    42px
+    42px
+    42px
+    42px
+    48px
+    48px
+    55px;
+
+  align-items: center;
+}
+
+
+.standings-header {
+  min-height: 36px;
+  background: rgba(228, 200, 74, .08);
+  border-bottom: 1px solid rgba(228, 200, 74, .25);
+
+  color: #d8c75b;
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: .8px;
+  text-align: center;
+}
+
+.standings-header span:nth-child(2) {
+  text-align: left;
+}
+
+
+/* FILAS */
+
+.standings-row {
+  min-height: 62px;
+  border-bottom: 1px solid rgba(255,255,255,.055);
+  color: #e7edf2;
+  font-size: 11px;
+  text-align: center;
+  transition: background .2s ease;
+}
+
+.standings-row:last-child {
+  border-bottom: none;
+}
+
+.standings-row:hover {
+  background: rgba(228, 200, 74, .045);
+}
+
+
+/* POSICIÓN */
+
+.standings-position {
+  color: #73828c;
+  font-size: 10px;
+  font-weight: 800;
+}
+
+
+/* EQUIPO */
+
+.standings-team {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  min-width: 0;
+  text-align: left;
+}
+
+.standings-team strong {
+  color: #f1f4f5;
+  font-size: 10px;
+  letter-spacing: .5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+/* ESCUDO */
+
+.standings-logo {
+  width: 40px;
+  height: 40px;
+
+  flex: 0 0 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid rgba(228, 200, 74, .45);
+  border-radius: 7px;
+
+  background: rgba(0,0,0,.3);
+  overflow: hidden;
+}
+
+.standings-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.standings-logo-missing::after {
+  content: "⚽";
+  font-size: 18px;
+}
+
+
+/* PUNTOS */
+
+.standings-pts {
+  color: #e4c84a;
+  font-size: 13px;
+}
+
+
+/* DIFERENCIA */
+
+.standings-dif {
+  font-weight: 800;
+}
+
+
+/* =========================================================
+   MÓVIL
+========================================================= */
+
+@media (max-width: 700px) {
+
+  .standings-table {
+    overflow-x: auto;
+  }
+
+  .standings-header,
+  .standings-row {
+    min-width: 690px;
+  }
+
+  .standings-heading h2 {
+    font-size: 18px;
+  }
+
+  .standings-round {
+    font-size: 9px;
+    padding: 6px 9px;
+  }
+
+}
+
+/* =========================================================
+   CORRECCIÓN — IMÁGENES DE LOS SOBRES
+========================================================= */
+
+.pack-art{
+  width:120px !important;
+  height:150px !important;
+  min-width:120px !important;
+  max-width:120px !important;
+  min-height:150px !important;
+  max-height:150px !important;
+
+  display:block !important;
+  padding:0 !important;
+  overflow:hidden !important;
+
+  border-radius:10px;
+  flex:0 0 120px;
+}
+
+.pack-art img{
+  display:block !important;
+
+  width:100% !important;
+  height:100% !important;
+
+  max-width:none !important;
+  max-height:none !important;
+
+  object-fit:cover !important;
+  object-position:center !important;
+
+  margin:0 !important;
+  padding:0 !important;
+}
+
+/* =========================================================
+   SOBRES — DISEÑO FINAL
+   Sin fondo amarillo/rojo detrás
+   ========================================================= */
+
+.pack-art{
+  width:155px !important;
+  height:195px !important;
+
+  min-width:155px !important;
+  max-width:155px !important;
+
+  min-height:195px !important;
+  max-height:195px !important;
+
+  display:flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+
+  padding:0 !important;
+  margin:0 auto 18px !important;
+
+  border:none !important;
+  background:transparent !important;
+
+  overflow:visible !important;
+
+  box-shadow:none !important;
+
+  flex:0 0 155px !important;
+
+  transform:rotate(-5deg);
+}
+
+
+/* Imagen del sobre */
+
+.pack-art img{
+  display:block !important;
+
+  width:100% !important;
+  height:100% !important;
+
+  max-width:none !important;
+  max-height:none !important;
+
+  margin:0 !important;
+  padding:0 !important;
+
+  object-fit:contain !important;
+
+  filter:
+    drop-shadow(0 14px 18px rgba(0,0,0,.55));
+
+  transition:
+    transform .25s ease,
+    filter .25s ease;
+}
+
+
+/* Sobre especial inclinado hacia el otro lado */
+
+.pack.special .pack-art{
+  transform:rotate(5deg) !important;
+}
+
+
+/* Pequeño efecto al pasar el mouse */
+
+.pack:hover .pack-art img{
+  transform:translateY(-5px) scale(1.025);
+  filter:
+    drop-shadow(0 20px 25px rgba(0,0,0,.65));
+}
+
+
+/* =========================================================
+   ESCRITORIO
+   ========================================================= */
+
+@media (min-width:901px){
+
+  .pack-art{
+    width:165px !important;
+    height:205px !important;
+
+    min-width:165px !important;
+    max-width:165px !important;
+
+    min-height:205px !important;
+    max-height:205px !important;
+
+    flex-basis:165px !important;
+  }
+
+}
+
+
+/* =========================================================
+   CELULAR
+   ========================================================= */
+
+@media (max-width:600px){
+
+  .pack-art{
+    width:135px !important;
+    height:170px !important;
+
+    min-width:135px !important;
+    max-width:135px !important;
+
+    min-height:170px !important;
+    max-height:170px !important;
+
+    flex-basis:135px !important;
+  }
+
+}
+
+/* =========================================================
+   CROMOS DE CLUB — TAMAÑO CONTROLADO
+========================================================= */
+
+.club-card-detail{
+  width:100%;
+}
+
+.club-detail-image{
+  width:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  overflow:hidden;
+}
+
+.club-detail-img{
+  display:block;
+
+  width:auto !important;
+  max-width:520px !important;
+
+  height:auto !important;
+  max-height:280px !important;
+
+  object-fit:contain;
+
+  border-radius:12px;
+
+  margin:0 auto;
+}
+
+
+/* =========================================================
+   ESCRITORIO
+========================================================= */
+
+@media (min-width:901px){
+
+  .club-detail-img{
+    max-width:720px !important;
+    max-height:480px !important;
+  }
+
+}
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (min-width:601px) and (max-width:900px){
+
+  .club-detail-img{
+    max-width:460px !important;
+    max-height:250px !important;
+  }
+
+}
+
+
+/* =========================================================
+   CELULAR
+========================================================= */
+
+@media (max-width:600px){
+
+  .club-detail-img{
+    max-width:100% !important;
+    max-height:230px !important;
+  }
+
+}
+
+/* =========================================================
+   DETALLE DE CROMO DE CLUB
+   Logo/cromo izquierda + información derecha
+========================================================= */
+
+.club-card-detail{
+  display:grid;
+  grid-template-columns: minmax(280px, 45%) 1fr;
+  gap:24px;
+  align-items:center;
+  width:100%;
+}
+
+
+/* =========================
+   CROMO / LOGO
+========================= */
+
+.club-detail-image{
+  width:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.club-detail-img{
+  display:block;
+
+  width:100% !important;
+  max-width:480px !important;
+
+  height:auto !important;
+  max-height:300px !important;
+
+  object-fit:contain;
+
+  border-radius:12px;
+
+  margin:0 auto;
+}
+
+
+/* =========================
+   INFORMACIÓN
+========================= */
+
+.club-detail-info{
+  min-width:0;
+}
+
+.club-detail-info h2{
+  margin:0 0 10px;
+  font-family:Georgia,"Times New Roman",serif;
+  font-size:28px;
+  color:var(--cream);
+}
+
+.club-detail-type{
+  font-size:12px;
+  font-weight:900;
+  letter-spacing:1px;
+  color:var(--gold2);
+  margin-bottom:12px;
+}
+
+
+/* =========================
+   STATS
+========================= */
+
+.club-detail-info .stats{
+  margin-top:10px;
+}
+
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width:900px){
+
+  .club-card-detail{
+    grid-template-columns: minmax(230px, 42%) 1fr;
+    gap:18px;
+  }
+
+  .club-detail-img{
+    max-width:360px !important;
+    max-height:250px !important;
+  }
+
+  .club-detail-info h2{
+    font-size:23px;
+  }
+
+}
+
+
+/* =========================
+   CELULAR
+========================= */
+
+@media (max-width:650px){
+
+  .club-card-detail{
+    grid-template-columns:1fr;
+    gap:16px;
+  }
+
+  .club-detail-image{
+    order:1;
+  }
+
+  .club-detail-info{
+    order:2;
+  }
+
+  .club-detail-img{
+    width:100% !important;
+    max-width:420px !important;
+    max-height:250px !important;
+  }
+
+}
+
+/* =========================================================
+   FLECHAS — CROMOS DE CLUB
+========================================================= */
+
+.club-detail-image{
+  position:relative;
+}
+
+
+/* Flecha izquierda */
+
+.club-detail-image .version-arrow.version-prev{
+  left:5px;
+}
+
+
+/* Flecha derecha */
+
+.club-detail-image .version-arrow.version-next{
+  right:5px;
+}
+
+
+/* Asegurar que estén por encima del cromo */
+
+.club-detail-image .version-arrow{
+  z-index:10;
+}
+
+
+/* =========================================================
+   HOVER
+========================================================= */
+
+.club-detail-image .version-arrow:hover{
+  transform:
+    translateY(-50%)
+    scale(1.06);
+}
+
+
+/* =========================================================
+   MÓVIL
+========================================================= */
+
+@media(max-width:650px){
+
+  .club-detail-image .version-arrow{
+    width:38px;
+    height:58px;
+    font-size:38px;
+  }
+
+  .club-detail-image .version-arrow.version-prev{
+    left:3px;
+  }
+
+  .club-detail-image .version-arrow.version-next{
+    right:3px;
+  }
+
+}
+
+/* =========================================================
+   FLECHAS DEL CROMO DE CLUB — EN LOS BORDES
+========================================================= */
+
+.club-card-detail{
+  position:relative;
+}
+
+
+/* Área del cromo */
+
+.club-detail-image{
+  position:relative;
+}
+
+
+/* Flechas */
+
+.club-detail-image .version-arrow{
+  position:fixed;
+}
+
+
+/* =========================================================
+   IMPORTANTE:
+   Las flechas deben salir del área central
+========================================================= */
+
+.club-card-detail{
+  display:grid;
+  grid-template-columns: minmax(280px, 45%) 1fr;
+  gap:24px;
+  align-items:center;
+}
+
+
+/* =========================================================
+   SI LAS FLECHAS ESTÁN DENTRO DE club-detail-image
+   las llevamos a los extremos del modal
+========================================================= */
+
+.club-detail-image .version-arrow{
+  position:absolute !important;
+  top:50% !important;
+  transform:translateY(-50%) !important;
+  z-index:20;
+}
+
+.club-detail-image .version-prev{
+  left:-28px !important;
+}
+
+.club-detail-image .version-next{
+  right:-28px !important;
+}
+
+
+/* =========================================================
+   ESCRITORIO — MÁS CERCA DE LOS BORDES
+========================================================= */
+
+@media (min-width:901px){
+
+  .club-detail-image .version-prev{
+    left:-45px !important;
+  }
+
+  .club-detail-image .version-next{
+    right:-45px !important;
+  }
+
+}
+
+
+/* =========================================================
+   MÓVIL
+========================================================= */
+
+@media (max-width:650px){
+
+  .club-detail-image .version-prev{
+    left:-8px !important;
+  }
+
+  .club-detail-image .version-next{
+    right:-8px !important;
+  }
+
+}

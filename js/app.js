@@ -211,7 +211,98 @@ const defaultPlayers = [
 
   //{ id: 99, playerId: "Agus", name: "Agustin Severo", pos: "VOL", team: "Selección de Maldonado", number: 99, version: "ALTERNATIVA", rarity: "ALTERNATIVA", rating: 98, image: "images/stickers/Alternative/AgusDios.png", got: false, quote: "Una nueva versión para seguir dejando huella.", stats: { Pase: 97, Tiro: 93, Defensa: 93, Velocidad: 97, Regate: 95, Físico: 95 } },
 
-  //{ id: 90, playerId: "ElMerca", name: "ElMerca", pos: "DEF", team: "Selección de Maldonado", number: 40, version: "ALTERNATIVA", rarity: "ALTERNATIVA", rating: 98, image: "images/stickers/Alternative/ElMercaDios.png", got: false, quote: "El sacrificio también puede tener otra versión.", stats: { Pase: 94, Tiro: 90, Defensa: 99, Velocidad: 95, Regate: 91, Físico: 97 } }
+  //{ id: 90, playerId: "ElMerca", name: "ElMerca", pos: "DEF", team: "Selección de Maldonado", number: 40, version: "ALTERNATIVA", rarity: "ALTERNATIVA", rating: 98, image: "images/stickers/Alternative/ElMercaDios.png", got: false, quote: "El sacrificio también puede tener otra versión.", stats: { Pase: 94, Tiro: 90, Defensa: 99, Velocidad: 95, Regate: 91, Físico: 97 } },
+
+  {
+    id: 100,
+    playerId: "FC Carolino",
+    name: "FC Carolino",
+    type: "club",
+    club: "FC Carolino",
+    version: "ESCUDOS",
+    rarity: "ESCUDO",
+    image: "images/Clubes/FCCarolino.png",
+    got: true,
+    quote: "La pasión también se lleva en el escudo."
+  },
+
+  {
+    id: 101,
+    playerId: "Chiveo",
+    name: "Chiveo Fútbol Club",
+    type: "club",
+    club: "Chiveo Fútbol Club",
+    version: "ESCUDOS",
+    rarity: "ESCUDO",
+    image: "images/Clubes/Chiveo.png",
+    got: false,
+    quote: "Un escudo representa mucho más que un equipo."
+  },
+
+  {
+    id: 102,
+    playerId: "SeleccionMaldonadoCreadores",
+    name: "Selección de Maldonado de Creadores",
+    type: "club",
+    club: "Selección de Maldonado de Creadores",
+    version: "ESCUDOS",
+    rarity: "ESCUDO",
+    image: "images/Clubes/SeleccionMaldonadoCreadores.png",
+    got: false,
+    quote: "Donde el fútbol y la creación se encuentran."
+  },
+
+  {
+    id: 103,
+    playerId: "Mazzoni",
+    name: "Mazzoni FC",
+    type: "club",
+    club: "Mazzoni FC",
+    version: "ESCUDOS",
+    rarity: "ESCUDO",
+    image: "images/Clubes/Mazzoni.png",
+    got: false,
+    quote: "Un escudo, una identidad."
+  },
+
+  {
+    id: 104,
+    playerId: "Sacachispas",
+    name: "Sacachispas FC",
+    type: "club",
+    club: "Sacachispas FC",
+    version: "ESCUDOS",
+    rarity: "ESCUDO",
+    image: "images/Clubes/Sacachispas.png",
+    got: false,
+    quote: "Pasión que se lleva en cada partido."
+  },
+
+  {
+    id: 105,
+    playerId: "Presion",
+    name: "Presión",
+    type: "club",
+    club: "Presión",
+    version: "ESCUDOS",
+    rarity: "ESCUDO",
+    image: "images/Clubes/Presion.png",
+    got: false,
+    quote: "La presión también forma parte del juego."
+  },
+
+  {
+    id: 106,
+    playerId: "Vikingos",
+    name: "Vikingos",
+    type: "club",
+    club: "Vikingos",
+    version: "ESCUDOS",
+    rarity: "ESCUDO",
+    image: "images/Clubes/Vikingos.png",
+    got: false,
+    quote: "Fuerza, identidad y pasión."
+  },
 ];
 
 
@@ -650,18 +741,18 @@ function renderSocialNetworks(player) {
 }
 
 const challengeDefinitions = [
-  { id: 'new-cards-3', title: 'CONSIGUE 3 CROMOS NUEVOS', description: 'Completa tu colección poco a poco.', target: 3, reward: 60, progress: () => state.challenges.newCards },
-  { id: 'packs-3', title: 'ABRE 3 SOBRES', description: 'Participa en la colección.', target: 3, reward: 80, progress: () => state.challenges.packs },
-  { id: 'def-3', title: 'CONSIGUE 3 CROMOS DEF', description: 'Refuerza la defensa de tu equipo.', target: 3, reward: 90, progress: () => ownedPlayersBy(player => player.pos === 'DEF').length },
-  { id: 'med-3', title: 'CONSIGUE 3 CROMOS MED', description: 'Completa tu mediocampo.', target: 3, reward: 90, progress: () => ownedPlayersBy(player => ['MED', 'MC', 'MCO', 'VOL'].includes(player.pos)).length },
-  { id: 'del-3', title: 'CONSIGUE 3 CROMOS DEL', description: 'Suma potencia a tu ataque.', target: 3, reward: 90, progress: () => ownedPlayersBy(player => player.pos === 'DEL').length },
+  { id: 'new-cards-3', title: 'CONSIGUE 3 CROMOS NUEVOS', description: 'Completa tu colección poco a poco.', target: 3, reward: 40, progress: () => state.challenges.newCards },
+  { id: 'packs-3', title: 'ABRE 3 SOBRES', description: 'Participa en la colección.', target: 3, reward: 50, progress: () => state.challenges.packs },
+  { id: 'def-3', title: 'CONSIGUE 3 CROMOS DEF', description: 'Refuerza la defensa de tu equipo.', target: 3, reward: 60, progress: () => ownedPlayersBy(player => player.pos === 'DEF').length },
+  { id: 'med-3', title: 'CONSIGUE 3 CROMOS MED', description: 'Completa tu mediocampo.', target: 3, reward: 80, progress: () => ownedPlayersBy(player => ['MED', 'MC', 'MCO', 'VOL'].includes(player.pos)).length },
+  { id: 'del-3', title: 'CONSIGUE 3 CROMOS DEL', description: 'Suma potencia a tu ataque.', target: 3, reward: 80, progress: () => ownedPlayersBy(player => player.pos === 'DEL').length },
   { id: 'por-2', title: 'CONSIGUE 2 CROMOS POR', description: 'Construye una portería segura.', target: 2, reward: 70, progress: () => ownedPlayersBy(player => player.pos === 'POR').length },
-  { id: 'epic-3', title: 'CONSIGUE 3 CROMOS ÉPICO', description: 'Haz crecer tu colección de rarezas.', target: 3, reward: 120, progress: () => ownedPlayersBy(player => normalizeRarity(player.rarity) === 'ÉPICO').length },
-  { id: 'eighties-3', title: "CONSIGUE 3 CROMOS 80'S", description: 'Completa tu selección retro.', target: 3, reward: 140, progress: () => ownedPlayersBy(player => normalizeRarity(player.rarity) === "80'S").length },
-  { id: 'god-3', title: 'CONSIGUE 3 CROMOS MODO DIOS', description: 'Alcanza el nivel máximo.', target: 3, reward: 180, progress: () => ownedPlayersBy(player => normalizeRarity(player.rarity) === 'MODO DIOS').length },
+  { id: 'epic-3', title: 'CONSIGUE 3 CROMOS ÉPICO', description: 'Haz crecer tu colección de rarezas.', target: 3, reward: 90, progress: () => ownedPlayersBy(player => normalizeRarity(player.rarity) === 'ÉPICO').length },
+  { id: 'eighties-3', title: "CONSIGUE 3 CROMOS 80'S", description: 'Completa tu selección retro.', target: 3, reward: 110, progress: () => ownedPlayersBy(player => normalizeRarity(player.rarity) === "80'S").length },
+  { id: 'god-3', title: 'CONSIGUE 3 CROMOS MODO DIOS', description: 'Alcanza el nivel máximo.', target: 3, reward: 110, progress: () => ownedPlayersBy(player => normalizeRarity(player.rarity) === 'MODO DIOS').length },
   { id: 'total-10', title: 'CONSIGUE 10 CROMOS EN TOTAL', description: 'Amplía tu álbum con constancia.', target: 10, reward: 100, progress: () => got().length },
-  { id: 'rating-90-5', title: 'CONSIGUE 5 CROMOS DE RATING 90+', description: 'Colecciona cartas de alto nivel.', target: 5, reward: 160, progress: () => ownedPlayersBy(player => Number(player.rating) >= 90).length },
-  { id: 'codes-3', title: 'CANJEA 3 CÓDIGOS DIFERENTES', description: 'Busca códigos y reclama sus recompensas.', target: 3, reward: 150, progress: () => state.redeemedCodes.length }
+  { id: 'rating-90-5', title: 'CONSIGUE 5 CROMOS DE RATING 90+', description: 'Colecciona cartas de alto nivel.', target: 5, reward: 130, progress: () => ownedPlayersBy(player => Number(player.rating) >= 90).length },
+  { id: 'codes-3', title: 'CANJEA 3 CÓDIGOS DIFERENTES', description: 'Busca códigos y reclama sus recompensas.', target: 3, reward: 120, progress: () => state.redeemedCodes.length }
 ];
 
 function normalizeRarity(rarity) {
@@ -969,11 +1060,41 @@ function slot(p) {
     return `
     <article class="sticker-slot" onclick="showCard(${p.id})">
       <img src="${p.image || ''}" alt="${p.name}" />
-      <div class="slot-number">#${p.number}</div>
-      <div style="margin-top:8px">
-        <b>${p.name}</b>
-        <small style="display:block;color:var(--muted)">${p.rating} · ${p.rarity}</small>
-      </div>
+      <div class="slot-number">
+  ${p.type === "club" ? `#${p.id}` : `#${p.number}`}
+</div>
+
+<div style="margin-top:8px">
+
+  <b>
+    ${p.name}
+  </b>
+
+  ${p.type === "club"
+        ? `
+        <small
+          style="
+            display:block;
+            color:var(--muted);
+            margin-top:3px;
+          "
+        >
+          CROMO DE CLUB
+        </small>
+      `
+        : `
+        <small
+          style="
+            display:block;
+            color:var(--muted);
+          "
+        >
+          ${p.rating} · ${p.rarity}
+        </small>
+      `
+      }
+
+</div>
     </article>
     `;
   }
@@ -1340,9 +1461,12 @@ function packs() {
 
    <div class="pack">
 
-    <div class="pack-art">
-      ✉️
-    </div>
+<div class="pack-art">
+  <img
+    src="images/otros/SobrePlataCreadores.png"
+    alt="Sobre Clásico"
+  >
+</div>
 
     <h2>
       Sobre Clásico
@@ -1368,9 +1492,12 @@ function packs() {
 
    <div class="pack special">
 
-    <div class="pack-art">
-      💎
-    </div>
+<div class="pack-art">
+  <img
+    src="images/otros/SobreDoradoCreadores.png"
+    alt="Sobre Especial"
+  >
+</div>
 
     <h2>
       Sobre Especial
@@ -1821,6 +1948,470 @@ function selectReplacement(pos, id) {
 
 // formaciones deshabilitadas: el usuario coloca libremente los cromos
 
+/* =========================================================
+   FIXTURE — CLAUSURA F8
+========================================================= */
+
+const fixtureData = {
+
+  competition: "CLAUSURA F8",
+
+  round: "1ª FECHA",
+
+  date: "SÁBADO 19 DE SEPTIEMBRE",
+
+  matches: [
+
+    {
+      time: "21:00",
+
+      home: "Mazzoni FC",
+      homeShort: "MAZZONI",
+      homeLogo: "images/Logos/LogoMazzoni.png",
+
+      away: "Vikingos",
+      awayShort: "VIKINGOS",
+      awayLogo: "images/Logos/LogoVikingos.png",
+
+      status: "PRÓXIMO"
+    },
+
+
+    {
+      time: "22:00",
+
+      home: "FC Carolino",
+      homeShort: "CAROLINO",
+      homeLogo: "images/Logos/LogoFCCarolino.png",
+
+      away: "Sacachispas FC",
+      awayShort: "SACACHISPAS",
+      awayLogo: "images/Logos/LogoSacachispas.png",
+
+      status: "PRÓXIMO"
+    },
+
+
+    {
+      time: "23:00",
+
+      home: "Selección de Maldonado de Creadores",
+      homeShort: "MALDONADO CREADORES",
+      homeLogo: "images/Logos/LogoSeleccionDeCreadores.png",
+
+      away: "Sin Presión",
+      awayShort: "SIN PRESIÓN",
+      awayLogo: "images/Logos/LogoPresion.png",
+
+      status: "PRÓXIMO"
+    }
+
+  ],
+
+
+  free: [
+
+    {
+      name: "Chiveo Fútbol Club",
+      short: "CHIVEO",
+      logo: "images/Logos/LogoChiveoFC.png"
+    }
+
+  ]
+
+};
+
+/* =========================================================
+   TABLA DE POSICIONES — CLAUSURA
+========================================================= */
+
+const standingsData = [
+  {
+    position: 1,
+    name: "Mazzoni FC",
+    short: "MAZZONI",
+    logo: "images/Logos/LogoMazzoni.png",
+    pts: 0,
+    j: 0,
+    g: 0,
+    e: 0,
+    p: 0,
+    gf: 0,
+    gc: 0,
+    dif: 0
+  },
+  {
+    position: 2,
+    name: "Vikingos",
+    short: "VIKINGOS",
+    logo: "images/Logos/LogoVikingos.png",
+    pts: 0,
+    j: 0,
+    g: 0,
+    e: 0,
+    p: 0,
+    gf: 0,
+    gc: 0,
+    dif: 0
+  },
+  {
+    position: 3,
+    name: "FC Carolino",
+    short: "CAROLINO",
+    logo: "images/Logos/LogoFCCarolino.png",
+    pts: 0,
+    j: 0,
+    g: 0,
+    e: 0,
+    p: 0,
+    gf: 0,
+    gc: 0,
+    dif: 0
+  },
+  {
+    position: 4,
+    name: "Sacachispas FC",
+    short: "SACACHISPAS",
+    logo: "images/Clubes/Sacachispas.png",
+    pts: 0,
+    j: 0,
+    g: 0,
+    e: 0,
+    p: 0,
+    gf: 0,
+    gc: 0,
+    dif: 0
+  },
+  {
+    position: 5,
+    name: "Selección de Maldonado de Creadores",
+    short: "MALDONADO CREADORES",
+    logo: "images/Logos/LogoSeleccionDeCreadores.png",
+    pts: 0,
+    j: 0,
+    g: 0,
+    e: 0,
+    p: 0,
+    gf: 0,
+    gc: 0,
+    dif: 0
+  },
+  {
+    position: 6,
+    name: "Sin Presión",
+    short: "SIN PRESIÓN",
+    logo: "images/Clubes/Presion.png",
+    pts: 0,
+    j: 0,
+    g: 0,
+    e: 0,
+    p: 0,
+    gf: 0,
+    gc: 0,
+    dif: 0
+  },
+  {
+    position: 7,
+    name: "Chiveo Fútbol Club",
+    short: "CHIVEO",
+    logo: "images/Logos/LogoChiveoFC.png",
+    pts: 0,
+    j: 0,
+    g: 0,
+    e: 0,
+    p: 0,
+    gf: 0,
+    gc: 0,
+    dif: 0
+  }
+];
+
+function standings() {
+  return `
+    <section class="section standings-section">
+
+      <div class="section-head standings-heading">
+        <div>
+          <span class="standings-kicker">CLAUSURA</span>
+          <h2>TABLA DE POSICIONES</h2>
+        </div>
+
+        <span class="standings-round">F8</span>
+      </div>
+
+      <div class="standings-table">
+
+        <div class="standings-header">
+          <span>#</span>
+          <span>EQUIPO</span>
+          <span>PTS</span>
+          <span>J</span>
+          <span>G</span>
+          <span>E</span>
+          <span>P</span>
+          <span>GF</span>
+          <span>GC</span>
+          <span>DIF</span>
+        </div>
+
+        ${standingsData.map((team, index) => `
+          <div class="standings-row">
+
+            <span class="standings-position">
+              ${String(index + 1).padStart(2, "0")}
+            </span>
+
+            <div class="standings-team">
+
+              <div class="standings-logo">
+                <img
+                  src="${team.logo}"
+                  alt="Escudo ${team.name}"
+                  loading="lazy"
+                  onerror="
+                    this.style.display='none';
+                    this.parentElement.classList.add('standings-logo-missing');
+                  "
+                >
+              </div>
+
+              <strong>${team.short}</strong>
+
+            </div>
+
+            <strong class="standings-pts">
+              ${team.pts}
+            </strong>
+
+            <span>${team.j}</span>
+            <span>${team.g}</span>
+            <span>${team.e}</span>
+            <span>${team.p}</span>
+            <span>${team.gf}</span>
+            <span>${team.gc}</span>
+
+            <span class="standings-dif">
+              ${team.dif > 0 ? "+" + team.dif : team.dif}
+            </span>
+
+          </div>
+        `).join("")}
+
+      </div>
+
+    </section>
+  `;
+}
+/* =========================================================
+   LOGO DEL FIXTURE
+========================================================= */
+
+function fixtureLogo(src, alt) {
+
+  return `
+    <div class="fixture-team-logo">
+
+      <img
+        src="${src}"
+        alt="Escudo ${alt}"
+        loading="lazy"
+        onerror="
+          this.style.display='none';
+          this.parentElement.classList.add('fixture-logo-missing');
+        "
+      >
+
+    </div>
+  `;
+
+}
+
+
+/* =========================================================
+   PARTIDO DEL FIXTURE
+========================================================= */
+
+function fixtureMatch(match) {
+
+  return `
+
+    <article class="fixture-match">
+
+      <div class="fixture-match-top">
+
+        <span class="fixture-time">
+          ${match.time} HS
+        </span>
+
+        <span class="fixture-status">
+          ${match.status}
+        </span>
+
+      </div>
+
+
+      <div class="fixture-teams">
+
+
+        <div class="fixture-team">
+
+          ${fixtureLogo(
+    match.homeLogo,
+    match.home
+  )}
+
+          <strong>
+            ${match.homeShort}
+          </strong>
+
+        </div>
+
+
+        <div class="fixture-vs">
+
+          <span>VS</span>
+
+        </div>
+
+
+        <div class="fixture-team">
+
+          ${fixtureLogo(
+    match.awayLogo,
+    match.away
+  )}
+
+          <strong>
+            ${match.awayShort}
+          </strong>
+
+        </div>
+
+
+      </div>
+
+    </article>
+
+  `;
+
+}
+
+
+/* =========================================================
+   VISTA FIXTURE
+========================================================= */
+
+function fixture() {
+
+  return `
+
+    <section class="section fixture-page">
+
+
+      <div class="section-head fixture-heading">
+
+        <div>
+
+          <span class="fixture-kicker">
+            ${fixtureData.competition}
+          </span>
+
+          <h2>
+            ${fixtureData.round}
+          </h2>
+
+        </div>
+
+
+        <span class="fixture-date">
+          ${fixtureData.date}
+        </span>
+
+      </div>
+
+
+      <div class="fixture-hero">
+
+        <div class="fixture-hero-mark">
+          ⚽
+        </div>
+
+        <div>
+
+          <b>
+            FIXTURE OFICIAL
+          </b>
+
+          <small>
+            Selección de Maldonado de Creadores
+          </small>
+
+        </div>
+
+      </div>
+
+
+      <div class="fixture-list">
+
+        ${fixtureData.matches
+      .map(fixtureMatch)
+      .join("")
+    }
+
+      </div>
+
+
+      <div class="fixture-free">
+
+        <div class="fixture-free-title">
+          FECHA LIBRE
+        </div>
+
+
+<div class="fixture-free-items">
+
+  ${fixtureData.free
+      .map(team => `
+      
+      <div class="fixture-free-team">
+
+        <div class="fixture-team-logo">
+
+          <img
+            src="${team.logo}"
+            alt="Escudo ${team.name}"
+            loading="lazy"
+            onerror="
+              this.style.display='none';
+              this.parentElement.classList.add('fixture-logo-missing');
+            "
+          >
+
+        </div>
+
+        <strong>
+          ${team.short}
+        </strong>
+
+      </div>
+
+    `)
+      .join("")
+    }
+
+</div>
+
+      </div>
+
+
+      ${standings()}
+
+
+    </section>
+
+  `;
+
+}
 
 /* =========================================================
    RENDER
@@ -1839,9 +2430,11 @@ function render() {
           ? packs()
           : state.page === "cards"
             ? cards()
-            : state.page === "challenges"
-              ? challenges()
-              : team();
+            : state.page === "fixture"
+              ? fixture()
+              : state.page === "challenges"
+                ? challenges()
+                : team();
 
   $$("#bottomNav button")
     .forEach(
@@ -1873,6 +2466,60 @@ function playerKey(p) {
    AGRUPAR VERSIONES
 ========================================================= */
 
+/* =========================================================
+   NAVEGACIÓN GENERAL — CROMOS OBTENIDOS
+========================================================= */
+
+function collectionGroups() {
+
+  const groups = [];
+  const seen = new Set();
+
+  state.players
+    .filter(p => p.got)
+    .forEach(p => {
+
+      /* Los clubes son cromos individuales */
+      if (p.type === "club") {
+
+        groups.push({
+          key: `club-${p.id}`,
+          type: "club",
+          item: p,
+          versions: [p]
+        });
+
+        return;
+      }
+
+
+      /* Los jugadores se agrupan por playerId */
+      const key = playerKey(p);
+
+      if (seen.has(key)) return;
+
+      seen.add(key);
+
+      const versions = state.players.filter(
+        v =>
+          playerKey(v) === key &&
+          v.got
+      );
+
+      if (!versions.length) return;
+
+      groups.push({
+        key,
+        type: "player",
+        item: versions[0],
+        versions
+      });
+
+    });
+
+  return groups;
+}
+
 function playerGroups() {
   const groups = [];
   const seen = new Set();
@@ -1899,6 +2546,204 @@ function showCard(id) {
 
   if (!p) return;
 
+  /* =========================================================
+   CROMO DE CLUB
+========================================================= */
+
+  if (p.type === "club") {
+
+    const collection = collectionGroups();
+
+    const currentIndex = collection.findIndex(
+      item => item.key === `club-${p.id}`
+    );
+
+    const previousItem =
+      currentIndex > 0
+        ? collection[currentIndex - 1]
+        : null;
+
+    const nextItem =
+      currentIndex < collection.length - 1
+        ? collection[currentIndex + 1]
+        : null;
+
+    /* =========================================================
+   NAVEGACIÓN ENTRE CROMOS DE CLUB
+========================================================= */
+
+    const clubs = state.players.filter(
+      club => club.type === "club"
+    );
+
+    const currentClubIndex = clubs.findIndex(
+      club => club.id === p.id
+    );
+
+    const previousClub =
+      currentClubIndex > 0
+        ? clubs[currentClubIndex - 1]
+        : null;
+
+    const nextClub =
+      currentClubIndex < clubs.length - 1
+        ? clubs[currentClubIndex + 1]
+        : null;
+
+    $("#modalCard").innerHTML = `
+
+    <div class="modal-top">
+
+      <b>
+        DETALLE DEL CROMO
+      </b>
+
+      <button
+        class="close"
+        onclick="closeModal()"
+      >
+        ×
+      </button>
+
+    </div>
+
+
+    <div class="club-card-detail">
+
+<div class="club-detail-image">
+
+  ${p.image
+        ? `
+      <img
+        src="${p.image}"
+        alt="${p.name}"
+        class="club-detail-img"
+      >
+    `
+        : `
+      <div class="club-image-placeholder">
+        🛡️
+      </div>
+    `
+      }
+
+
+  <!-- FLECHA CLUB ANTERIOR -->
+
+<button
+  class="
+    arrow
+    ${previousItem ? "" : "disabled"}
+  "
+  ${previousItem
+        ? `onclick="showCard(${previousItem.item.id})"`
+        : ""
+      }
+  aria-label="Cromo anterior"
+>
+  ‹
+</button>
+
+
+  <!-- FLECHA CLUB SIGUIENTE -->
+
+<button
+  class="
+    arrow
+    ${nextItem ? "" : "disabled"}
+  "
+  ${nextItem
+        ? `onclick="showCard(${nextItem.item.id})"`
+        : ""
+      }
+  aria-label="Siguiente cromo"
+>
+  ›
+</button>
+
+</div>
+
+
+      <div class="club-detail-info">
+
+        <h2>
+          ${p.name.toUpperCase()}
+        </h2>
+
+        <div class="club-detail-type">
+          ESCUDO DE CLUB
+        </div>
+
+        <div class="stats">
+
+          <div class="stat">
+
+            <small>
+              TIPO
+            </small>
+
+            <b>
+              CLUB
+            </b>
+
+          </div>
+
+
+          <div class="stat">
+
+            <small>
+              RAREZA
+            </small>
+
+            <b>
+              ${p.rarity || "ESCUDO"}
+            </b>
+
+          </div>
+
+        </div>
+
+
+        <div
+          class="info"
+          style="margin-top:10px"
+        >
+
+          “${p.quote || "La pasión también se lleva en el escudo."}”
+
+        </div>
+
+
+        <div
+          class="club-collection-badge"
+        >
+
+          🛡️ CROMO DE CLUB
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <button
+      class="gold-btn"
+      style="
+        width:100%;
+        margin-top:15px
+      "
+      onclick="closeModal()"
+    >
+      CERRAR
+    </button>
+
+  `;
+
+    $("#modal").classList.add("show");
+
+    return;
+  }
 
   /*
     GRUPOS DE JUGADORES
@@ -3000,3 +3845,4 @@ $("#resetProgress")
 
 applyTheme();
 render();
+
