@@ -131,87 +131,87 @@ const defaultPlayers = [
 
   // MODO DIOS
 
-{ id: 61, playerId: "Morron", name: "Morron", pos: "POR", team: "Selección de Maldonado", number: 26, version: "MODO DIOS", rarity: "MODO DIOS", rating: 99, image: "images/stickers/Dios/MorronDios.png", got: false, quote: "Cuando el arco parece imposible, él lo hace parecer sencillo.", stats: { Pase: 88, Tiro: 82, Defensa: 97, Velocidad: 94, Regate: 91, Físico: 98 } },
+  { id: 61, playerId: "Morron", name: "Morron", pos: "POR", team: "Selección de Maldonado", number: 26, version: "MODO DIOS", rarity: "MODO DIOS", rating: 99, image: "images/stickers/Dios/MorronDios.png", got: false, quote: "Cuando el arco parece imposible, él lo hace parecer sencillo.", stats: { Pase: 88, Tiro: 82, Defensa: 97, Velocidad: 94, Regate: 91, Físico: 98 } },
 
-//{ id: 62, playerId: "Maxi", name: "Maxi", pos: "DEF", team: "Selección de Maldonado", number: 2, version: "MODO DIOS", rarity: "MODO DIOS", rating: 99, image: "images/stickers/Dios/MaxiDios.png", got: false, quote: "Maxi Modo Dios.", stats: { Pase: 98, Tiro: 96, Defensa: 96, Velocidad: 98, Regate: 99, Físico: 95 } },
+  //{ id: 62, playerId: "Maxi", name: "Maxi", pos: "DEF", team: "Selección de Maldonado", number: 2, version: "MODO DIOS", rarity: "MODO DIOS", rating: 99, image: "images/stickers/Dios/MaxiDios.png", got: false, quote: "Maxi Modo Dios.", stats: { Pase: 98, Tiro: 96, Defensa: 96, Velocidad: 98, Regate: 99, Físico: 95 } },
 
-{ id: 63, playerId: "Andres", name: "Andres 'Peti' Rivero", pos: "DEF", team: "Selección de Maldonado", number: 3, version: "MODO DIOS", rarity: "MODO DIOS", rating: 101, image: "images/stickers/Dios/AndresDios.png", got: false, quote: "Cuando juega en modo Dios, defender parece demasiado fácil.", stats: { Pase: 101, Tiro: 99, Defensa: 98, Velocidad: 103, Regate: 102, Físico: 103 } },
+  { id: 63, playerId: "Andres", name: "Andres 'Peti' Rivero", pos: "DEF", team: "Selección de Maldonado", number: 3, version: "MODO DIOS", rarity: "MODO DIOS", rating: 101, image: "images/stickers/Dios/AndresDios.png", got: false, quote: "Cuando juega en modo Dios, defender parece demasiado fácil.", stats: { Pase: 101, Tiro: 99, Defensa: 98, Velocidad: 103, Regate: 102, Físico: 103 } },
 
-//{ id: 64, playerId: "Nico", name: "Nico", pos: "DEF", team: "Selección de Maldonado", number: 4, version: "MODO DIOS", rarity: "MODO DIOS", rating: 98, image: "images/stickers/Dios/NicoDios.png", got: false, quote: "Un muro que parece no tener final.", stats: { Pase: 94, Tiro: 90, Defensa: 99, Velocidad: 96, Regate: 93, Físico: 97 } },
+  //{ id: 64, playerId: "Nico", name: "Nico", pos: "DEF", team: "Selección de Maldonado", number: 4, version: "MODO DIOS", rarity: "MODO DIOS", rating: 98, image: "images/stickers/Dios/NicoDios.png", got: false, quote: "Un muro que parece no tener final.", stats: { Pase: 94, Tiro: 90, Defensa: 99, Velocidad: 96, Regate: 93, Físico: 97 } },
 
-{ id: 65, playerId: "Cundoo", name: "Cundoo", pos: "MED", team: "Selección de Maldonado", number: 5, version: "MODO DIOS", rarity: "MODO DIOS", rating: 99, image: "images/stickers/Dios/CundoDios.png", got: false, quote: "Más que fútbol, creamos historias.", stats: { Pase: 99, Tiro: 94, Defensa: 96, Velocidad: 97, Regate: 99, Físico: 95 } },
+  { id: 65, playerId: "Cundoo", name: "Cundoo", pos: "MED", team: "Selección de Maldonado", number: 5, version: "MODO DIOS", rarity: "MODO DIOS", rating: 99, image: "images/stickers/Dios/CundoDios.png", got: false, quote: "Más que fútbol, creamos historias.", stats: { Pase: 99, Tiro: 94, Defensa: 96, Velocidad: 97, Regate: 99, Físico: 95 } },
 
-{ id: 66, playerId: "Nahuel", name: "Nahuel", pos: "MC", team: "Selección de Maldonado", number: 16, version: "MODO DIOS", rarity: "MODO DIOS", rating: 98, image: "images/stickers/Dios/NahuelDios.png", got: false, quote: "Cuando piensa el juego, el resto simplemente lo sigue.", stats: { Pase: 97, Tiro: 93, Defensa: 95, Velocidad: 96, Regate: 98, Físico: 94 } },
+  { id: 66, playerId: "Nahuel", name: "Nahuel", pos: "MC", team: "Selección de Maldonado", number: 16, version: "MODO DIOS", rarity: "MODO DIOS", rating: 98, image: "images/stickers/Dios/NahuelDios.png", got: false, quote: "Cuando piensa el juego, el resto simplemente lo sigue.", stats: { Pase: 97, Tiro: 93, Defensa: 95, Velocidad: 96, Regate: 98, Físico: 94 } },
 
-// { id: 67, playerId: "Bruno", name: "Bruno", pos: "DEF", team: "Selección de Maldonado", number: 7, version: "MODO DIOS", rarity: "MODO DIOS", rating: 98, image: "images/stickers/Dios/BrunoDios.png", got: false, quote: "Una presencia que cambia completamente la defensa.", stats: { Pase: 93, Tiro: 88, Defensa: 99, Velocidad: 94, Regate: 91, Físico: 98 } },
+  // { id: 67, playerId: "Bruno", name: "Bruno", pos: "DEF", team: "Selección de Maldonado", number: 7, version: "MODO DIOS", rarity: "MODO DIOS", rating: 98, image: "images/stickers/Dios/BrunoDios.png", got: false, quote: "Una presencia que cambia completamente la defensa.", stats: { Pase: 93, Tiro: 88, Defensa: 99, Velocidad: 94, Regate: 91, Físico: 98 } },
 
-// { id: 68, playerId: "Pedro", name: "Pedro", pos: "POR", team: "Selección de Maldonado", number: 8, version: "MODO DIOS", rarity: "MODO DIOS", rating: 97, image: "images/stickers/Dios/PedroDios.png", got: false, quote: "Hay pelotas que simplemente no entran.", stats: { Pase: 86, Tiro: 78, Defensa: 97, Velocidad: 96, Regate: 90, Físico: 97 } },
+  // { id: 68, playerId: "Pedro", name: "Pedro", pos: "POR", team: "Selección de Maldonado", number: 8, version: "MODO DIOS", rarity: "MODO DIOS", rating: 97, image: "images/stickers/Dios/PedroDios.png", got: false, quote: "Hay pelotas que simplemente no entran.", stats: { Pase: 86, Tiro: 78, Defensa: 97, Velocidad: 96, Regate: 90, Físico: 97 } },
 
-{ id: 69, playerId: "Manu Rodriguez", name: "Manu 'Pocho' Rodriguez", pos: "DEL", team: "Selección de Maldonado", number: 8, version: "MODO DIOS", rarity: "MODO DIOS", rating: 99, image: "images/stickers/Dios/ManuDios.png", got: false, quote: "Cuando arranca, solo queda mirar.", stats: { Pase: 98, Tiro: 99, Defensa: 88, Velocidad: 99, Regate: 99, Físico: 94 } },
+  { id: 69, playerId: "Manu Rodriguez", name: "Manu 'Pocho' Rodriguez", pos: "DEL", team: "Selección de Maldonado", number: 8, version: "MODO DIOS", rarity: "MODO DIOS", rating: 99, image: "images/stickers/Dios/ManuDios.png", got: false, quote: "Cuando arranca, solo queda mirar.", stats: { Pase: 98, Tiro: 99, Defensa: 88, Velocidad: 99, Regate: 99, Físico: 94 } },
 
-{ id: 70, playerId: "Sangaraza", name: "Sangaraza", pos: "MCO", team: "Selección de Maldonado", number: 10, version: "MODO DIOS", rarity: "MODO DIOS", rating: 99, image: "images/stickers/Dios/SanGarazaDios.png", got: false, quote: "Maldonado siempre crea.", stats: { Pase: 100, Tiro: 100, Defensa: 97, Velocidad: 100, Regate: 100, Físico: 97 } },
+  { id: 70, playerId: "Sangaraza", name: "Sangaraza", pos: "MCO", team: "Selección de Maldonado", number: 10, version: "MODO DIOS", rarity: "MODO DIOS", rating: 99, image: "images/stickers/Dios/SanGarazaDios.png", got: false, quote: "Maldonado siempre crea.", stats: { Pase: 100, Tiro: 100, Defensa: 97, Velocidad: 100, Regate: 100, Físico: 97 } },
 
-//{ id: 71, playerId: "Lucas", name: "Lucas", pos: "MED", team: "Selección de Maldonado", number: 11, version: "MODO DIOS", rarity: "MODO DIOS", rating: 98, image: "images/stickers/Dios/LucasDios.png", got: false, quote: "El partido se juega a su ritmo.", stats: { Pase: 97, Tiro: 93, Defensa: 93, Velocidad: 97, Regate: 98, Físico: 95 } },
+  //{ id: 71, playerId: "Lucas", name: "Lucas", pos: "MED", team: "Selección de Maldonado", number: 11, version: "MODO DIOS", rarity: "MODO DIOS", rating: 98, image: "images/stickers/Dios/LucasDios.png", got: false, quote: "El partido se juega a su ritmo.", stats: { Pase: 97, Tiro: 93, Defensa: 93, Velocidad: 97, Regate: 98, Físico: 95 } },
 
-{ id: 72, playerId: "Rolangas", name: "Rolangas", pos: "MED", team: "Selección de Maldonado", number: 69, version: "MODO DIOS", rarity: "MODO DIOS", rating: 99, image: "images/stickers/Dios/RolangasDios.png", got: false, quote: "Maldonado siempre crea.", stats: { Pase: 99, Tiro: 98, Defensa: 94, Velocidad: 99, Regate: 99, Físico: 98 } },
+  { id: 72, playerId: "Rolangas", name: "Rolangas", pos: "MED", team: "Selección de Maldonado", number: 69, version: "MODO DIOS", rarity: "MODO DIOS", rating: 99, image: "images/stickers/Dios/RolangasDios.png", got: false, quote: "Maldonado siempre crea.", stats: { Pase: 99, Tiro: 98, Defensa: 94, Velocidad: 99, Regate: 99, Físico: 98 } },
 
-{ id: 73, playerId: "Cristian", name: "Cristian 'Bufalo' Mendez", pos: "DEF", team: "Selección de Maldonado", number: 13, version: "MODO DIOS", rarity: "MODO DIOS", rating: 97, image: "images/stickers/Dios/CristianDios.png", got: false, quote: "Una fuerza imposible de ignorar.", stats: { Pase: 95, Tiro: 93, Defensa: 93, Velocidad: 96, Regate: 95, Físico: 94 } },
+  { id: 73, playerId: "Cristian", name: "Cristian 'Bufalo' Mendez", pos: "DEF", team: "Selección de Maldonado", number: 13, version: "MODO DIOS", rarity: "MODO DIOS", rating: 97, image: "images/stickers/Dios/CristianDios.png", got: false, quote: "Una fuerza imposible de ignorar.", stats: { Pase: 95, Tiro: 93, Defensa: 93, Velocidad: 96, Regate: 95, Físico: 94 } },
 
-// { id: 74, playerId: "Diego", name: "Diego", pos: "DEL", team: "Selección de Maldonado", number: 14, version: "MODO DIOS", rarity: "MODO DIOS", rating: 98, image: "images/stickers/Dios/DiegoDios.png", got: false, quote: "El arco es el único objetivo.", stats: { Pase: 96, Tiro: 99, Defensa: 90, Velocidad: 99, Regate: 97, Físico: 94 } },
+  // { id: 74, playerId: "Diego", name: "Diego", pos: "DEL", team: "Selección de Maldonado", number: 14, version: "MODO DIOS", rarity: "MODO DIOS", rating: 98, image: "images/stickers/Dios/DiegoDios.png", got: false, quote: "El arco es el único objetivo.", stats: { Pase: 96, Tiro: 99, Defensa: 90, Velocidad: 99, Regate: 97, Físico: 94 } },
 
-// { id: 75, playerId: "Martin", name: "Martin", pos: "DEF", team: "Selección de Maldonado", number: 15, version: "MODO DIOS", rarity: "MODO DIOS", rating: 98, image: "images/stickers/Dios/MartinDios.png", got: false, quote: "Defensa llevada al siguiente nivel.", stats: { Pase: 94, Tiro: 88, Defensa: 99, Velocidad: 96, Regate: 92, Físico: 98 } },
+  // { id: 75, playerId: "Martin", name: "Martin", pos: "DEF", team: "Selección de Maldonado", number: 15, version: "MODO DIOS", rarity: "MODO DIOS", rating: 98, image: "images/stickers/Dios/MartinDios.png", got: false, quote: "Defensa llevada al siguiente nivel.", stats: { Pase: 94, Tiro: 88, Defensa: 99, Velocidad: 96, Regate: 92, Físico: 98 } },
 
-{ id: 76, playerId: "Matute", name: "Matute", pos: "DEF", team: "Selección de Maldonado", number: 6, version: "MODO DIOS", rarity: "MODO DIOS", rating: 98, image: "images/stickers/Dios/MatuteDios.png", got: false, quote: "No hay duelo que no esté dispuesto a ganar.", stats: { Pase: 98, Tiro: 94, Defensa: 94, Velocidad: 97, Regate: 98, Físico: 96 } },
+  { id: 76, playerId: "Matute", name: "Matute", pos: "DEF", team: "Selección de Maldonado", number: 6, version: "MODO DIOS", rarity: "MODO DIOS", rating: 98, image: "images/stickers/Dios/MatuteDios.png", got: false, quote: "No hay duelo que no esté dispuesto a ganar.", stats: { Pase: 98, Tiro: 94, Defensa: 94, Velocidad: 97, Regate: 98, Físico: 96 } },
 
-//{ id: 77, playerId: "Gonzalo", name: "Gonzalo", pos: "POR", team: "Selección de Maldonado", number: 17, version: "MODO DIOS", rarity: "MODO DIOS", rating: 97, image: "images/stickers/Dios/GonzaloDios.png", got: false, quote: "Una atajada suya puede cambiar la historia.", stats: { Pase: 87, Tiro: 80, Defensa: 97, Velocidad: 97, Regate: 91, Físico: 98 } },
+  //{ id: 77, playerId: "Gonzalo", name: "Gonzalo", pos: "POR", team: "Selección de Maldonado", number: 17, version: "MODO DIOS", rarity: "MODO DIOS", rating: 97, image: "images/stickers/Dios/GonzaloDios.png", got: false, quote: "Una atajada suya puede cambiar la historia.", stats: { Pase: 87, Tiro: 80, Defensa: 97, Velocidad: 97, Regate: 91, Físico: 98 } },
 
-{ id: 78, playerId: "Jona", name: "Jona", pos: "VOL", team: "Selección de Maldonado", number: 18, version: "MODO DIOS", rarity: "MODO DIOS", rating: 98, image: "images/stickers/Dios/JonaDios.png", got: false, quote: "Cuando el partido exige grandeza, responde.", stats: { Pase: 96, Tiro: 99, Defensa: 91, Velocidad: 98, Regate: 97, Físico: 94 } },
+  { id: 78, playerId: "Jona", name: "Jona", pos: "VOL", team: "Selección de Maldonado", number: 18, version: "MODO DIOS", rarity: "MODO DIOS", rating: 98, image: "images/stickers/Dios/JonaDios.png", got: false, quote: "Cuando el partido exige grandeza, responde.", stats: { Pase: 96, Tiro: 99, Defensa: 91, Velocidad: 98, Regate: 97, Físico: 94 } },
 
-{ id: 79, playerId: "Agus", name: "Agustin Severo", pos: "VOL", team: "Selección de Maldonado", number: 99, version: "MODO DIOS", rarity: "MODO DIOS", rating: 98, image: "images/stickers/Dios/AgusDios.png", got: false, quote: "Talento que aparece cuando más se necesita.", stats: { Pase: 97, Tiro: 93, Defensa: 93, Velocidad: 97, Regate: 95, Físico: 95 } },
+  { id: 79, playerId: "Agus", name: "Agustin Severo", pos: "VOL", team: "Selección de Maldonado", number: 99, version: "MODO DIOS", rarity: "MODO DIOS", rating: 98, image: "images/stickers/Dios/AgusDios.png", got: false, quote: "Talento que aparece cuando más se necesita.", stats: { Pase: 97, Tiro: 93, Defensa: 93, Velocidad: 97, Regate: 95, Físico: 95 } },
 
-{ id: 80, playerId: "ElMerca", name: "ElMerca", pos: "DEF", team: "Selección de Maldonado", number: 40, version: "MODO DIOS", rarity: "MODO DIOS", rating: 98, image: "images/stickers/Dios/ElMercaDios.png", got: false, quote: "Cuando hay que defender el escudo, no existe el cansancio.", stats: { Pase: 94, Tiro: 90, Defensa: 99, Velocidad: 95, Regate: 91, Físico: 97 } },
+  { id: 80, playerId: "ElMerca", name: "ElMerca", pos: "DEF", team: "Selección de Maldonado", number: 40, version: "MODO DIOS", rarity: "MODO DIOS", rating: 98, image: "images/stickers/Dios/ElMercaDios.png", got: false, quote: "Cuando hay que defender el escudo, no existe el cansancio.", stats: { Pase: 94, Tiro: 90, Defensa: 99, Velocidad: 95, Regate: 91, Físico: 97 } },
 
-// ALTERNATIVA
+  // ALTERNATIVA
 
-//{ id: 81, playerId: "Morron", name: "Morron", pos: "POR", team: "Selección de Maldonado", number: 26, version: "ALTERNATIVA", rarity: "ALTERNATIVA", rating: 99, image: "images/stickers/Dios/MorronDios.png", got: false, quote: "Una nueva versión del guardián de Maldonado.", stats: { Pase: 88, Tiro: 82, Defensa: 97, Velocidad: 94, Regate: 91, Físico: 98 } },
+  //{ id: 81, playerId: "Morron", name: "Morron", pos: "POR", team: "Selección de Maldonado", number: 26, version: "ALTERNATIVA", rarity: "ALTERNATIVA", rating: 99, image: "images/stickers/Dios/MorronDios.png", got: false, quote: "Una nueva versión del guardián de Maldonado.", stats: { Pase: 88, Tiro: 82, Defensa: 97, Velocidad: 94, Regate: 91, Físico: 98 } },
 
-//{ id: 8, playerId: "Maxi", name: "Maxi", pos: "DEF", team: "Selección de Maldonado", number: 2, version: "ALTERNATIVA", rarity: "ALTERNATIVA", rating: 99, image: "images/stickers/Alternative/MaxiDios.png", got: false, quote: "Maxi ALTERNATIVA.", stats: { Pase: 98, Tiro: 96, Defensa: 96, Velocidad: 98, Regate: 99, Físico: 95 } },
+  //{ id: 8, playerId: "Maxi", name: "Maxi", pos: "DEF", team: "Selección de Maldonado", number: 2, version: "ALTERNATIVA", rarity: "ALTERNATIVA", rating: 99, image: "images/stickers/Alternative/MaxiDios.png", got: false, quote: "Maxi ALTERNATIVA.", stats: { Pase: 98, Tiro: 96, Defensa: 96, Velocidad: 98, Regate: 99, Físico: 95 } },
 
-//{ id: 83, playerId: "Andres", name: "Andres 'Peti' Rivero", pos: "DEF", team: "Selección de Maldonado", number: 3, version: "ALTERNATIVA", rarity: "ALTERNATIVA", rating: 101, image: "images/stickers/Alternative/AndresDios.png", got: false, quote: "Una versión alternativa, pero igual de imparable.", stats: { Pase: 101, Tiro: 99, Defensa: 98, Velocidad: 103, Regate: 102, Físico: 103 } },
+  //{ id: 83, playerId: "Andres", name: "Andres 'Peti' Rivero", pos: "DEF", team: "Selección de Maldonado", number: 3, version: "ALTERNATIVA", rarity: "ALTERNATIVA", rating: 101, image: "images/stickers/Alternative/AndresDios.png", got: false, quote: "Una versión alternativa, pero igual de imparable.", stats: { Pase: 101, Tiro: 99, Defensa: 98, Velocidad: 103, Regate: 102, Físico: 103 } },
 
-//{ id: 84, playerId: "Nico", name: "Nico", pos: "DEF", team: "Selección de Maldonado", number: 4, version: "ALTERNATIVA", rarity: "ALTERNATIVA", rating: 98, image: "images/stickers/AlternativeNicoDios.png", got: false, quote: "Otra versión del muro de Maldonado.", stats: { Pase: 94, Tiro: 90, Defensa: 99, Velocidad: 96, Regate: 93, Físico: 97 } },
+  //{ id: 84, playerId: "Nico", name: "Nico", pos: "DEF", team: "Selección de Maldonado", number: 4, version: "ALTERNATIVA", rarity: "ALTERNATIVA", rating: 98, image: "images/stickers/AlternativeNicoDios.png", got: false, quote: "Otra versión del muro de Maldonado.", stats: { Pase: 94, Tiro: 90, Defensa: 99, Velocidad: 96, Regate: 93, Físico: 97 } },
 
-//{ id: 85, playerId: "Cundoo", name: "Cundoo", pos: "MED", team: "Selección de Maldonado", number: 5, version: "ALTERNATIVA", rarity: "ALTERNATIVA", rating: 99, image: "images/stickers/Alternative/CundoDios.png", got: false, quote: "Más que fútbol, creamos historias.", stats: { Pase: 99, Tiro: 94, Defensa: 96, Velocidad: 97, Regate: 99, Físico: 95 } },
+  //{ id: 85, playerId: "Cundoo", name: "Cundoo", pos: "MED", team: "Selección de Maldonado", number: 5, version: "ALTERNATIVA", rarity: "ALTERNATIVA", rating: 99, image: "images/stickers/Alternative/CundoDios.png", got: false, quote: "Más que fútbol, creamos historias.", stats: { Pase: 99, Tiro: 94, Defensa: 96, Velocidad: 97, Regate: 99, Físico: 95 } },
 
-//{ id: 86, playerId: "Nahuel", name: "Nahuel", pos: "MC", team: "Selección de Maldonado", number: 16, version: "ALTERNATIVA", rarity: "ALTERNATIVA", rating: 98, image: "images/stickers/Alternative/NahuelDios.png", got: false, quote: "Una mirada diferente sobre el juego.", stats: { Pase: 97, Tiro: 93, Defensa: 95, Velocidad: 96, Regate: 98, Físico: 94 } },
+  //{ id: 86, playerId: "Nahuel", name: "Nahuel", pos: "MC", team: "Selección de Maldonado", number: 16, version: "ALTERNATIVA", rarity: "ALTERNATIVA", rating: 98, image: "images/stickers/Alternative/NahuelDios.png", got: false, quote: "Una mirada diferente sobre el juego.", stats: { Pase: 97, Tiro: 93, Defensa: 95, Velocidad: 96, Regate: 98, Físico: 94 } },
 
-// { id: 87, playerId: "Bruno", name: "Bruno", pos: "DEF", team: "Selección de Maldonado", number: 7, version: "ALTERNATIVA", rarity: "ALTERNATIVA", rating: 98, image: "images/stickers/Alternative/BrunoDios.png", got: false, quote: "La defensa también puede ser espectáculo.", stats: { Pase: 93, Tiro: 88, Defensa: 99, Velocidad: 94, Regate: 91, Físico: 98 } },
+  // { id: 87, playerId: "Bruno", name: "Bruno", pos: "DEF", team: "Selección de Maldonado", number: 7, version: "ALTERNATIVA", rarity: "ALTERNATIVA", rating: 98, image: "images/stickers/Alternative/BrunoDios.png", got: false, quote: "La defensa también puede ser espectáculo.", stats: { Pase: 93, Tiro: 88, Defensa: 99, Velocidad: 94, Regate: 91, Físico: 98 } },
 
-// { id: 88, playerId: "Pedro", name: "Pedro", pos: "POR", team: "Selección de Maldonado", number: 8, version: "ALTERNATIVA", rarity: "ALTERNATIVA", rating: 97, image: "images/stickers/Alternative/PedroDios.png", got: false, quote: "Otra forma de mirar la portería.", stats: { Pase: 86, Tiro: 78, Defensa: 97, Velocidad: 96, Regate: 90, Físico: 97 } },
+  // { id: 88, playerId: "Pedro", name: "Pedro", pos: "POR", team: "Selección de Maldonado", number: 8, version: "ALTERNATIVA", rarity: "ALTERNATIVA", rating: 97, image: "images/stickers/Alternative/PedroDios.png", got: false, quote: "Otra forma de mirar la portería.", stats: { Pase: 86, Tiro: 78, Defensa: 97, Velocidad: 96, Regate: 90, Físico: 97 } },
 
-//{ id: 89, playerId: "Manu Rodriguez", name: "Manu 'Pocho' Rodriguez", pos: "DEL", team: "Selección de Maldonado", number: 8, version: "ALTERNATIVA", rarity: "ALTERNATIVA", rating: 99, image: "images/stickers/Alternative/ManuDios.png", got: false, quote: "Cuando tiene una oportunidad, la convierte en peligro.", stats: { Pase: 98, Tiro: 99, Defensa: 88, Velocidad: 99, Regate: 99, Físico: 94 } },
+  //{ id: 89, playerId: "Manu Rodriguez", name: "Manu 'Pocho' Rodriguez", pos: "DEL", team: "Selección de Maldonado", number: 8, version: "ALTERNATIVA", rarity: "ALTERNATIVA", rating: 99, image: "images/stickers/Alternative/ManuDios.png", got: false, quote: "Cuando tiene una oportunidad, la convierte en peligro.", stats: { Pase: 98, Tiro: 99, Defensa: 88, Velocidad: 99, Regate: 99, Físico: 94 } },
 
-{ id: 90, playerId: "Sangaraza", name: "Sangaraza", pos: "POR", team: "Selección de Maldonado", number: 10, version: "ALTERNATIVA", rarity: "ALTERNATIVA", rating: 99, image: "images/stickers/Alternative/AlternativeSangaraza.png", got: false, quote: "Maldonado siempre crea.", stats: { Pase: 100, Tiro: 100, Defensa: 97, Velocidad: 100, Regate: 100, Físico: 97 } },
+  { id: 90, playerId: "Sangaraza", name: "Sangaraza", pos: "POR", team: "Selección de Maldonado", number: 10, version: "ALTERNATIVA", rarity: "ALTERNATIVA", rating: 99, image: "images/stickers/Alternative/AlternativeSangaraza.png", got: false, quote: "Maldonado siempre crea.", stats: { Pase: 100, Tiro: 100, Defensa: 97, Velocidad: 100, Regate: 100, Físico: 97 } },
 
-//{ id: 91, playerId: "Lucas", name: "Lucas", pos: "MED", team: "Selección de Maldonado", number: 11, version: "ALTERNATIVA", rarity: "ALTERNATIVA", rating: 98, image: "images/stickers/Alternative/LucasDios.png", got: false, quote: "Una versión diferente de un talento especial.", stats: { Pase: 97, Tiro: 93, Defensa: 93, Velocidad: 97, Regate: 98, Físico: 95 } },
+  //{ id: 91, playerId: "Lucas", name: "Lucas", pos: "MED", team: "Selección de Maldonado", number: 11, version: "ALTERNATIVA", rarity: "ALTERNATIVA", rating: 98, image: "images/stickers/Alternative/LucasDios.png", got: false, quote: "Una versión diferente de un talento especial.", stats: { Pase: 97, Tiro: 93, Defensa: 93, Velocidad: 97, Regate: 98, Físico: 95 } },
 
-//{ id: 92, playerId: "Rolangas", name: "Rolangas", pos: "MED", team: "Selección de Maldonado", number: 69, version: "ALTERNATIVA", rarity: "ALTERNATIVA", rating: 99, image: "images/stickers/Alternative/RolangasDios.png", got: false, quote: "Maldonado siempre crea.", stats: { Pase: 99, Tiro: 98, Defensa: 94, Velocidad: 99, Regate: 99, Físico: 98 } },
+  //{ id: 92, playerId: "Rolangas", name: "Rolangas", pos: "MED", team: "Selección de Maldonado", number: 69, version: "ALTERNATIVA", rarity: "ALTERNATIVA", rating: 99, image: "images/stickers/Alternative/RolangasDios.png", got: false, quote: "Maldonado siempre crea.", stats: { Pase: 99, Tiro: 98, Defensa: 94, Velocidad: 99, Regate: 99, Físico: 98 } },
 
-//{ id: 93, playerId: "Cristian", name: "Cristian 'Bufalo' Mendez", pos: "DEF", team: "Selección de Maldonado", number: 13, version: "ALTERNATIVA", rarity: "ALTERNATIVA", rating: 97, image: "images/stickers/Alternative/CristianDios.png", got: false, quote: "Una versión alternativa con la misma fuerza.", stats: { Pase: 95, Tiro: 93, Defensa: 93, Velocidad: 96, Regate: 95, Físico: 94 } },
+  //{ id: 93, playerId: "Cristian", name: "Cristian 'Bufalo' Mendez", pos: "DEF", team: "Selección de Maldonado", number: 13, version: "ALTERNATIVA", rarity: "ALTERNATIVA", rating: 97, image: "images/stickers/Alternative/CristianDios.png", got: false, quote: "Una versión alternativa con la misma fuerza.", stats: { Pase: 95, Tiro: 93, Defensa: 93, Velocidad: 96, Regate: 95, Físico: 94 } },
 
-{ id: 94, playerId: "Mato", name: "Mato Cal", pos: "DEL", team: "Selección de Maldonado", number: 369, version: "ALTERNATIVA", rarity: "ALTERNATIVA", rating: 98, image: "images/stickers/Alternative/AlternativeMato.png", got: false, quote: "Cuando aparece el espacio, no perdona.", stats: { Pase: 96, Tiro: 99, Defensa: 90, Velocidad: 99, Regate: 97, Físico: 94 } },
+  { id: 94, playerId: "Mato", name: "Mato Cal", pos: "DEL", team: "Selección de Maldonado", number: 369, version: "ALTERNATIVA", rarity: "ALTERNATIVA", rating: 98, image: "images/stickers/Alternative/AlternativeMato.png", got: false, quote: "Cuando aparece el espacio, no perdona.", stats: { Pase: 96, Tiro: 99, Defensa: 90, Velocidad: 99, Regate: 97, Físico: 94 } },
 
-// { id: 95, playerId: "Martin", name: "Martin", pos: "DEF", team: "Selección de Maldonado", number: 15, version: "ALTERNATIVA", rarity: "ALTERNATIVA", rating: 98, image: "images/stickers/Alternative/MartinDios.png", got: false, quote: "Una defensa alternativa, pero igual de imponente.", stats: { Pase: 94, Tiro: 88, Defensa: 99, Velocidad: 96, Regate: 92, Físico: 98 } },
+  // { id: 95, playerId: "Martin", name: "Martin", pos: "DEF", team: "Selección de Maldonado", number: 15, version: "ALTERNATIVA", rarity: "ALTERNATIVA", rating: 98, image: "images/stickers/Alternative/MartinDios.png", got: false, quote: "Una defensa alternativa, pero igual de imponente.", stats: { Pase: 94, Tiro: 88, Defensa: 99, Velocidad: 96, Regate: 92, Físico: 98 } },
 
-//{ id: 96, playerId: "Matute", name: "Matute", pos: "DEF", team: "Selección de Maldonado", number: 6, version: "ALTERNATIVA", rarity: "ALTERNATIVA", rating: 98, image: "images/stickers/Alternative/MatuteDios.png", got: false, quote: "Otra versión del guerrero de la defensa.", stats: { Pase: 98, Tiro: 94, Defensa: 94, Velocidad: 97, Regate: 98, Físico: 96 } },
+  //{ id: 96, playerId: "Matute", name: "Matute", pos: "DEF", team: "Selección de Maldonado", number: 6, version: "ALTERNATIVA", rarity: "ALTERNATIVA", rating: 98, image: "images/stickers/Alternative/MatuteDios.png", got: false, quote: "Otra versión del guerrero de la defensa.", stats: { Pase: 98, Tiro: 94, Defensa: 94, Velocidad: 97, Regate: 98, Físico: 96 } },
 
-//{ id: 97, playerId: "Gonzalo", name: "Gonzalo", pos: "POR", team: "Selección de Maldonado", number: 17, version: "ALTERNATIVA", rarity: "ALTERNATIVA", rating: 97, image: "images/stickers/Alternative/GonzaloDios.png", got: false, quote: "Una nueva forma de dominar el arco.", stats: { Pase: 87, Tiro: 80, Defensa: 97, Velocidad: 97, Regate: 91, Físico: 98 } },
+  //{ id: 97, playerId: "Gonzalo", name: "Gonzalo", pos: "POR", team: "Selección de Maldonado", number: 17, version: "ALTERNATIVA", rarity: "ALTERNATIVA", rating: 97, image: "images/stickers/Alternative/GonzaloDios.png", got: false, quote: "Una nueva forma de dominar el arco.", stats: { Pase: 87, Tiro: 80, Defensa: 97, Velocidad: 97, Regate: 91, Físico: 98 } },
 
-//{ id: 98, playerId: "Alejandro", name: "Alejandro", pos: "DEL", team: "Selección de Maldonado", number: 18, version: "ALTERNATIVA", rarity: "ALTERNATIVA", rating: 98, image: "images/stickers/Alternative/AlejandroDios.png", got: false, quote: "El gol también tiene una versión alternativa.", stats: { Pase: 96, Tiro: 99, Defensa: 91, Velocidad: 98, Regate: 97, Físico: 94 } },
+  //{ id: 98, playerId: "Alejandro", name: "Alejandro", pos: "DEL", team: "Selección de Maldonado", number: 18, version: "ALTERNATIVA", rarity: "ALTERNATIVA", rating: 98, image: "images/stickers/Alternative/AlejandroDios.png", got: false, quote: "El gol también tiene una versión alternativa.", stats: { Pase: 96, Tiro: 99, Defensa: 91, Velocidad: 98, Regate: 97, Físico: 94 } },
 
-//{ id: 99, playerId: "Agus", name: "Agustin Severo", pos: "VOL", team: "Selección de Maldonado", number: 99, version: "ALTERNATIVA", rarity: "ALTERNATIVA", rating: 98, image: "images/stickers/Alternative/AgusDios.png", got: false, quote: "Una nueva versión para seguir dejando huella.", stats: { Pase: 97, Tiro: 93, Defensa: 93, Velocidad: 97, Regate: 95, Físico: 95 } },
+  //{ id: 99, playerId: "Agus", name: "Agustin Severo", pos: "VOL", team: "Selección de Maldonado", number: 99, version: "ALTERNATIVA", rarity: "ALTERNATIVA", rating: 98, image: "images/stickers/Alternative/AgusDios.png", got: false, quote: "Una nueva versión para seguir dejando huella.", stats: { Pase: 97, Tiro: 93, Defensa: 93, Velocidad: 97, Regate: 95, Físico: 95 } },
 
-//{ id: 90, playerId: "ElMerca", name: "ElMerca", pos: "DEF", team: "Selección de Maldonado", number: 40, version: "ALTERNATIVA", rarity: "ALTERNATIVA", rating: 98, image: "images/stickers/Alternative/ElMercaDios.png", got: false, quote: "El sacrificio también puede tener otra versión.", stats: { Pase: 94, Tiro: 90, Defensa: 99, Velocidad: 95, Regate: 91, Físico: 97 } }
+  //{ id: 90, playerId: "ElMerca", name: "ElMerca", pos: "DEF", team: "Selección de Maldonado", number: 40, version: "ALTERNATIVA", rarity: "ALTERNATIVA", rating: 98, image: "images/stickers/Alternative/ElMercaDios.png", got: false, quote: "El sacrificio también puede tener otra versión.", stats: { Pase: 94, Tiro: 90, Defensa: 99, Velocidad: 95, Regate: 91, Físico: 97 } }
 ];
 
 
@@ -281,42 +281,40 @@ const socialNetworks = {
 const socialNetworkOrder = ['instagram', 'tiktok', 'youtube', 'facebook'];
 
 const playerSocialOverrides = {
-/*   Morron: {
-    instagram: 'Aqui Link',
-    tiktok: 'Aqui Link',
-    youtube: 'Aqui Link'
+  Morron: {
+    instagram: 'https://www.instagram.com/morron_2000/'
   },
 
   Andres: {
-    instagram: 'Aqui Link',
-    tiktok: 'Aqui Link',
-    youtube: 'Aqui Link'
+    instagram: 'https://www.instagram.com/riveroandres8/'
   },
 
   Cundoo: {
     instagram: 'https://www.instagram.com/cund00/',
-    tiktok: 'Aqui Link',
-    youtube: 'https://www.youtube.com/@saangaraza'
-  }, */
-/* 
+    tiktok: 'https://www.tiktok.com/@cundo0_',
+    youtube: 'https://www.youtube.com/@CUNDO0000'
+  },
   Matute: {
-    instagram: 'Aqui Link',
-    tiktok: 'Aqui Link',
-    youtube: 'Aqui Link'
+    instagram: 'https://www.instagram.com/maaaatuuuuteeee/'
   },
 
   Seba: {
     instagram: 'https://www.instagram.com/seba.corre/',
-    tiktok: 'Aqui Link',
     youtube: 'https://www.youtube.com/@saangaraza'
   },
 
   'Manu Rodriguez': {
-    instagram: 'Aqui Link',
-    tiktok: 'Aqui Link',
-    youtube: 'Aqui Link'
+    instagram: [
+      {
+        url: 'https://www.instagram.com/mmanu_r0/',
+        label: '@mmanu'
+      },
+      {
+        url: 'https://www.instagram.com/pochoorodriguez/',
+        label: '@pochoorodriguez'
+      }
+    ]
   },
- */
   Sangaraza: {
     instagram: 'https://www.instagram.com/saangaraza/',
     tiktok: [
@@ -336,54 +334,62 @@ const playerSocialOverrides = {
     },
   },
 
- /*  Aarón: {
-    instagram: 'Aqui Link',
-    tiktok: 'Aqui Link',
-    youtube: 'Aqui Link'
-  },
-
+  /*  Aarón: {
+     instagram: 'Aqui Link',
+     tiktok: 'Aqui Link',
+     youtube: 'Aqui Link'
+   },
+*/
   Rolangas: {
-    instagram: 'Aqui Link',
+    instagram: 'https://www.instagram.com/rolangasss69/',
     tiktok: 'Aqui Link',
     youtube: 'Aqui Link'
   },
-
-  Cristian: {
-    instagram: 'Aqui Link',
-    tiktok: 'Aqui Link',
-    youtube: 'Aqui Link'
-  },
-
+  /*
+    Cristian: {
+      instagram: 'Aqui Link',
+      tiktok: 'Aqui Link',
+      youtube: 'Aqui Link'
+    },
+  */
   Nahuel: {
-    instagram: 'Aqui Link',
+    instagram: 'https://www.instagram.com/soynahuelsan/',
     tiktok: 'Aqui Link',
     youtube: 'Aqui Link'
   },
 
   Mato: {
-    instagram: 'Aqui Link',
-    tiktok: 'Aqui Link',
-    youtube: 'Aqui Link'
+    instagram: 'https://www.instagram.com/matocal369?stkn=cXJ2ZXRhMW8xb3Ro',
+    tiktok: 'https://www.tiktok.com/@matocal?_r=1&_t=ZS-99khP4PLpfp',
+    youtube: 'https://www.youtube.com/@MatoCal369'
   },
-
-  Jona: {
-    instagram: 'Aqui Link',
-    tiktok: 'Aqui Link',
-    youtube: 'Aqui Link'
-  },
-
-  Agus: {
-    instagram: 'Aqui Link',
-    tiktok: 'Aqui Link',
-    youtube: 'Aqui Link'
-  },
-
+  /*
+    Jona: {
+      instagram: 'Aqui Link',
+      tiktok: 'Aqui Link',
+      youtube: 'Aqui Link'
+    },
+  
+    Agus: {
+      instagram: 'Aqui Link',
+      tiktok: 'Aqui Link',
+      youtube: 'Aqui Link'
+    },
+  */
   ElMerca: {
-    instagram: 'https://www.instagram.com/elmercas2/',
-    instagram: 'https://www.instagram.com/guillemercadal/',
+    instagram: [
+      {
+        url: 'https://www.instagram.com/elmercas2/',
+        label: 'ElMercas'
+      },
+      {
+        url: 'https://www.instagram.com/guillemercadal/',
+        label: 'Guille Mercadal'
+      }
+    ],
     tiktok: 'Aqui Link',
-    youtube: 'Aqui Link'
-  } */
+    youtube: 'https://www.youtube.com/@elmercas'
+  }
 };
 
 function isSocialPlaceholder(value) {
@@ -2369,79 +2375,438 @@ function showMissing(id) {
 
 
 /* =========================================================
-   ABRIR SOBRE
+   ABRIR SOBRE - ANIMACIÓN ESTILO FIFA / PANINI
 ========================================================= */
 
 let packRevealTimer = null;
 
+
+/* =========================================================
+   REVELAR CROMOS
+========================================================= */
+
 function revealPackCards(drawn) {
+
   const cards = $$('.pack-reveal-card');
+
   cards.forEach((card, index) => {
-    setTimeout(() => card.classList.add('revealed'), index * 650);
+
+    setTimeout(() => {
+
+      card.classList.add('revealed');
+
+      setTimeout(() => {
+        card.classList.add('pack-card-pop');
+      }, 30);
+
+      setTimeout(() => {
+        card.classList.remove('pack-card-pop');
+      }, 600);
+
+    }, index * 800);
+
   });
+
   packRevealTimer = setTimeout(() => {
-    $("#skipPackReveal")?.classList.add('hidden');
-    $("#continuePackReveal")?.classList.remove('hidden');
-  }, cards.length * 650 + 500);
+
+    $("#skipPackReveal")?.classList.add("hidden");
+
+    $("#continuePackReveal")?.classList.remove("hidden");
+
+  }, cards.length * 800 + 700);
+
 }
+
+/* =========================================================
+   OMITIR ANIMACIÓN
+========================================================= */
 
 function skipPackReveal() {
-  if (packRevealTimer) clearTimeout(packRevealTimer);
-  $$('.pack-reveal-card').forEach(card => card.classList.add('revealed'));
-  $("#skipPackReveal")?.classList.add('hidden');
-  $("#continuePackReveal")?.classList.remove('hidden');
+
+  if (packRevealTimer) {
+    clearTimeout(packRevealTimer);
+  }
+
+  // Hacer desaparecer el sobre inmediatamente
+  const stage = document.querySelector(".pack-opening-stage");
+
+  if (stage) {
+    stage.classList.add("pack-disappear");
+  }
+
+  // Mostrar todos los cromos
+  $$('.pack-reveal-card').forEach(card => {
+    card.classList.add('revealed');
+  });
+
+  $("#skipPackReveal")?.classList.add("hidden");
+
+  $("#continuePackReveal")?.classList.remove("hidden");
+
 }
 
+
+/* =========================================================
+   ABRIR SOBRE
+========================================================= */
+
 function openPack(count, cost) {
+
+  /* -------------------------------------------------------
+     COMPROBAR MONEDAS
+  ------------------------------------------------------- */
+
   if (state.coins < cost) {
     alert("No tienes suficientes monedas.");
     return;
   }
 
+
+  /* -------------------------------------------------------
+     COSTO
+  ------------------------------------------------------- */
+
   state.coins -= cost;
+
   state.openedPacks++;
-  state.challenges.packs = Math.min(3, state.challenges.packs + 1);
+
+  state.challenges.packs = Math.min(
+    3,
+    state.challenges.packs + 1
+  );
+
+
+  /* -------------------------------------------------------
+     SORTEAR CROMOS
+  ------------------------------------------------------- */
 
   const drawn = [];
+
   for (let i = 0; i < count; i++) {
-    drawn.push(state.players[Math.floor(Math.random() * state.players.length)]);
+
+    const randomIndex = Math.floor(
+      Math.random() * state.players.length
+    );
+
+    drawn.push(
+      state.players[randomIndex]
+    );
+
   }
 
+
+  /* -------------------------------------------------------
+     COMPROBAR CROMOS NUEVOS
+  ------------------------------------------------------- */
+
   let newCount = 0;
-  drawn.forEach(p => {
-    if (!p.got) {
-      p.got = true;
+
+  drawn.forEach(player => {
+
+    if (!player.got) {
+
+      player.got = true;
+
       newCount++;
-      state.challenges.newCards = Math.min(3, state.challenges.newCards + 1);
+
+      state.challenges.newCards =
+        Math.min(
+          3,
+          state.challenges.newCards + 1
+        );
+
     }
+
   });
+
+
+  /* -------------------------------------------------------
+     GUARDAR
+  ------------------------------------------------------- */
 
   save();
   render();
 
-  const revealCards = drawn.map(p => p.image
-    ? `<div class="pack-reveal-card" onclick="showCard(${p.id})"><img src="${p.image}" alt="${p.name}"></div>`
-    : `<div class="pack-reveal-card pack-reveal-placeholder"><b>#${p.number}</b><br>${p.name}</div>`
-  ).join('');
 
-  $("#modalCard").innerHTML = `
-    <div class="pack-opening">
-      <button id="skipPackReveal" class="skip-reveal" onclick="skipPackReveal()">OMITIR</button>
-      <div class="modal-top">
-        <b>¡SOBRE ABIERTO!</b>
-        <button class="close" onclick="closeModal()">×</button>
+  /* -------------------------------------------------------
+     TIPO DE SOBRE
+  ------------------------------------------------------- */
+
+  const isSpecialPack = cost >= 60;
+
+  const packImage = isSpecialPack
+    ? "images/otros/SobreDoradoCreadores.png"
+    : "images/otros/SobrePlataCreadores.png";
+
+  const packName = isSpecialPack
+    ? "SOBRE ESPECIAL"
+    : "SOBRE CLÁSICO";
+
+
+  /* -------------------------------------------------------
+     CREAR CROMOS
+  ------------------------------------------------------- */
+
+  const revealCards = drawn.map((player, index) => {
+
+    if (player.image) {
+
+      return `
+        <div
+          class="pack-reveal-card"
+          data-index="${index}"
+          onclick="showCard(${player.id})"
+        >
+          <img
+            src="${player.image}"
+            alt="${player.name}"
+            loading="eager"
+          >
+        </div>
+      `;
+
+    }
+
+    return `
+      <div
+        class="pack-reveal-card pack-reveal-placeholder"
+        data-index="${index}"
+        onclick="showCard(${player.id})"
+      >
+        <b>#${player.number}</b>
+        <br>
+        ${player.name}
       </div>
-      <p class="pack-result">Has conseguido ${newCount} sticker${newCount === 1 ? " nuevo" : "s nuevos"}.</p>
-      <div class="pack-envelope" aria-hidden="true"><span>✉</span></div>
-      <div class="pack-reveal-grid">${revealCards}</div>
-      <button id="continuePackReveal" class="gold-btn hidden" style="width:100%;margin-top:15px" onclick="closeModal()">CONTINUAR</button>
+    `;
+
+  }).join("");
+
+
+  /* -------------------------------------------------------
+     PREPARAR MODAL
+  ------------------------------------------------------- */
+
+  const modalCard = $("#modalCard");
+
+  /* Limpiar clases de sobres anteriores */
+
+  modalCard.classList.remove(
+    "pack-reveal-modal",
+    "pack-count-3",
+    "pack-count-5",
+    "pack-count-4",
+    "pack-count-6"
+  );
+
+  /* Agregar clases correspondientes */
+
+  modalCard.classList.add(
+    "pack-reveal-modal",
+    `pack-count-${count}`
+  );
+
+
+  /* -------------------------------------------------------
+     CREAR MODAL
+  ------------------------------------------------------- */
+
+  modalCard.innerHTML = `
+
+    <div class="pack-opening pack-opening-premium">
+
+      <!-- OMITIR -->
+
+      <button
+        id="skipPackReveal"
+        class="skip-reveal"
+        onclick="skipPackReveal()"
+      >
+        OMITIR
+      </button>
+
+
+      <!-- CABECERA -->
+
+      <div class="modal-top">
+
+        <b>
+          ${packName}
+        </b>
+
+        <button
+          class="close"
+          onclick="closeModal()"
+        >
+          ×
+        </button>
+
+      </div>
+
+
+      <!-- TEXTO -->
+
+      <p class="pack-result">
+
+        Has conseguido
+
+        <strong>
+          ${newCount}
+        </strong>
+
+        sticker${newCount === 1 ? "" : "s"}
+        nuevo${newCount === 1 ? "" : "s"}.
+
+      </p>
+
+
+      <!-- =================================================
+           ESCENA DEL SOBRE
+      ================================================= -->
+
+      <div
+        class="
+          pack-opening-stage
+          pack-count-${count}
+          ${isSpecialPack
+      ? "pack-opening-gold"
+      : "pack-opening-silver"}
+        "
+      >
+
+        <!-- LUZ -->
+
+        <div class="pack-opening-glow"></div>
+
+
+        <!-- PARTÍCULAS -->
+
+        <div class="pack-opening-particles"></div>
+
+
+        <!-- SOBRE -->
+
+        <div class="pack-envelope-real">
+
+          <img
+            src="${packImage}"
+            alt="${packName}"
+            draggable="false"
+          >
+
+        </div>
+
+      </div>
+
+
+      <!-- =================================================
+           CROMOS
+      ================================================= -->
+
+      <div
+        class="
+          pack-reveal-grid
+          pack-count-${count}
+        "
+        id="packRevealGrid"
+      >
+
+        ${revealCards}
+
+      </div>
+
+
+      <!-- CONTINUAR -->
+
+      <button
+        id="continuePackReveal"
+        class="gold-btn hidden"
+        style="width:100%;margin-top:15px"
+        onclick="closeModal()"
+      >
+        CONTINUAR
+      </button>
+
     </div>
+
   `;
 
-  $("#modal").classList.add("show");
-  setTimeout(() => revealPackCards(drawn), 900);
-}
 
+  /* -------------------------------------------------------
+     MOSTRAR MODAL
+  ------------------------------------------------------- */
+
+  $("#modal").classList.add("show");
+
+
+  /* -------------------------------------------------------
+     0.1s
+     APARECE EL SOBRE
+  ------------------------------------------------------- */
+
+  setTimeout(() => {
+
+    const stage =
+      document.querySelector(
+        ".pack-opening-stage"
+      );
+
+    if (stage) {
+      stage.classList.add("pack-start");
+    }
+
+  }, 100);
+
+
+  /* -------------------------------------------------------
+     0.9s
+     EMPIEZA A VIBRAR
+  ------------------------------------------------------- */
+
+  setTimeout(() => {
+
+    const stage =
+      document.querySelector(
+        ".pack-opening-stage"
+      );
+
+    if (stage) {
+      stage.classList.add("pack-open");
+    }
+
+  }, 900);
+
+
+  /* -------------------------------------------------------
+     2.0s
+     FLASH + DESAPARICIÓN DEL SOBRE
+  ------------------------------------------------------- */
+
+  setTimeout(() => {
+
+    const stage =
+      document.querySelector(
+        ".pack-opening-stage"
+      );
+
+    if (stage) {
+      stage.classList.add("pack-disappear");
+    }
+
+  }, 2000);
+
+
+  /* -------------------------------------------------------
+     2.5s
+     EMPIEZAN LOS CROMOS
+  ------------------------------------------------------- */
+
+  setTimeout(() => {
+
+    revealPackCards(drawn);
+
+  }, 2500);
+
+}
 
 /* =========================================================
    BUSCADOR
@@ -2482,9 +2847,22 @@ function filterCards() {
 
 function closeModal() {
 
+  if (packRevealTimer) {
+    clearTimeout(packRevealTimer);
+    packRevealTimer = null;
+  }
+
   $("#modal")
     .classList
     .remove("show");
+
+  $("#modalCard")?.classList.remove(
+    "pack-reveal-modal",
+    "pack-count-3",
+    "pack-count-5",
+    "pack-count-4",
+    "pack-count-6"
+  );
 
 }
 
